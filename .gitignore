@@ -39,6 +39,7 @@ models/*
 !models/.gitkeep
 experiments/*
 !experiments/.gitkeep
+!experiments/*.md
 
 # Generated Outputs & Submissions
 output/*

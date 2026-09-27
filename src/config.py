@@ -6,7 +6,7 @@ model hyperparameters, threshold configurations, and output paths.
 
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import List
+from typing import Dict, List
 
 
 # Base directories
@@ -98,5 +98,91 @@ class PipelineConfig:
     source3_prefix: str = "S3-"
 
 
+# Configurable business legal suffixes (sorted by length descending for regex matching)
+DEFAULT_LEGAL_SUFFIXES: List[str] = [
+    "private limited",
+    "pvt limited",
+    "pvt ltd",
+    "pte ltd",
+    "incorporated",
+    "corporation",
+    "limited liability company",
+    "limited liability partnership",
+    "sociedad anonima",
+    "societe anonyme",
+    "societe a responsabilite limitee",
+    "enterprise unipersonnelle a responsabilite limitee",
+    "limited",
+    "company",
+    "private",
+    "corp",
+    "inc",
+    "ltd",
+    "llc",
+    "llp",
+    "plc",
+    "pvt",
+    "pte",
+    "sarl",
+    "sasu",
+    "sas",
+    "eurl",
+    "sci",
+    "snc",
+    "gie",
+    "gmbh",
+    "co",
+    "sa",
+]
+
+# Standard address abbreviations mapping (word -> standard token)
+DEFAULT_ADDRESS_ABBREVIATIONS: Dict[str, str] = {
+    # Thoroughfares
+    "street": "st",
+    "streets": "st",
+    "road": "rd",
+    "roads": "rd",
+    "avenue": "ave",
+    "avenues": "ave",
+    "boulevard": "blvd",
+    "bd": "blvd",
+    "bvd": "blvd",
+    "drive": "dr",
+    "lane": "ln",
+    "court": "ct",
+    "place": "pl",
+    "square": "sq",
+    "circle": "cir",
+    "highway": "hwy",
+    "parkway": "pkwy",
+    "expressway": "expy",
+    "terrace": "ter",
+    "way": "way",
+    "alley": "aly",
+    "route": "rte",
+    "chemin": "chem",
+    "impasse": "imp",
+    "allee": "all",
+    # Units / Sub-premises
+    "suite": "ste",
+    "apartment": "apt",
+    "building": "bldg",
+    "floor": "fl",
+    "room": "rm",
+    "department": "dept",
+    "unit": "unit",
+    "number": "no",
+    # Directions
+    "north": "n",
+    "south": "s",
+    "east": "e",
+    "west": "w",
+    "northeast": "ne",
+    "northwest": "nw",
+    "southeast": "se",
+    "southwest": "sw",
+}
+
 # Default active configuration instance
 DEFAULT_CONFIG: PipelineConfig = PipelineConfig()
+
