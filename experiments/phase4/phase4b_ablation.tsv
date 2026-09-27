@@ -1,0 +1,10 @@
+experiment	candidate_recall	avg_candidates	TP	FP	FN	macro_f05	singleton_f05	non_singleton_f05	end_to_end_recall	runtime	peak_ram
+Phase 3 Locked Baseline	0.8882	150.57	348	16	135	0.9532	0.9937	0.7233	0.7205	0.0s	1336 MB
+Phase 4A Union F (Baseline tau=0.50)	0.9358	155.82	399	26	84	0.9651	0.9898	0.8252	0.8261	2.4s	1423.7 MB
+Exp 8A: + Name Refinements (First/Last/Containment)	0.9358	155.82	407	33	76	0.9651	0.9875	0.8383	0.8427	3.47s	1423.7 MB
+Exp 8B: + Address & Joint Interactions (Num/Containment/Interactions)	0.9358	155.82	399	23	84	0.9661	0.991	0.8252	0.8261	2.28s	1423.7 MB
+Exp 8C: + Provenance Signals (HouseToken/WebNorm/IndepCount)	0.9358	155.82	401	23	82	0.9665	0.991	0.8278	0.8302	2.14s	1423.7 MB
+Exp 8D: + Full Targeted Feature Suite (55 feats)	0.9358	155.82	393	27	90	0.9632	0.9898	0.8127	0.8137	2.43s	1423.7 MB
+Block Support (block_count >= 2)	0.7888	116.86	347	21	136	0.9509	0.9918	0.7193	0.7184	0.1s	1423.7 MB
+Block Support (block_count >= 3)	0.6315	116.86	289	14	194	0.9362	0.9945	0.6059	0.5983	0.1s	1423.7 MB
+Best Calibration (Exp 8C: + Provenance Signals (HouseToken/WebNorm/IndepCount), tau=0.50)	0.9358	155.82	401	23	82	0.9665	0.991	0.8278	0.8302	2.8s	1423.7 MB

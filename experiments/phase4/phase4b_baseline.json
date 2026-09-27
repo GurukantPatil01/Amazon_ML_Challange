@@ -1,0 +1,21 @@
+{
+  "blocking_configuration": "Union F (Phase 3 + name_web_norm + house_token)",
+  "candidate_recall": 0.9358,
+  "captured_true_pairs": 452,
+  "total_gt_pairs": 483,
+  "remaining_candidate_misses": 31,
+  "avg_candidates_per_s1": 155.82,
+  "validation_s1_count": 3000,
+  "train_s1_count": 12000,
+  "baseline_threshold": 0.5,
+  "threshold": 0.5,
+  "tp": 399,
+  "fp": 26,
+  "fn": 84,
+  "macro_f05": 0.9651,
+  "macro_precision": 0.9653,
+  "macro_recall": 0.9647,
+  "singleton_f05": 0.9898,
+  "non_singleton_f05": 0.8252,
+  "end_to_end_recall": 0.8261
+}
