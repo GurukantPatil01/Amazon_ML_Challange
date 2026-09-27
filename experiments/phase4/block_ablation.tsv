@@ -1,0 +1,8 @@
+experiment	new_true_pairs	candidate_recall	remaining_misses	avg_candidates	p95_candidates	p99_candidates	max_candidates	candidate_precision	runtime_seconds	peak_ram_mb
+Phase 3 Baseline (Union E)	429	0.8882	54	150.88	180	185	199	0.000948	0.0	1336.48
+name_web_norm	214	0.4431	269	2.48	12	39	89	0.028787	0.11	1336.48
+char_3gram_k20	247	0.5114	236	40.0	40	40	40	0.002058	9.74	1336.48
+char_3gram_k50	266	0.5507	217	99.99	100	100	100	0.000887	12.56	1336.48
+char_3gram_adaptive	259	0.5362	224	69.7	70	70	70	0.001239	9.28	1336.48
+house_token	246	0.5093	237	4.42	23	81	100	0.018548	0.25	1336.48
+name_core_v2	174	0.3602	309	1.42	7	26	68	0.040788	0.15	1336.48
