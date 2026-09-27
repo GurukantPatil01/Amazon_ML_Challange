@@ -1,0 +1,12 @@
+{
+  "model_name": "paraphrase-multilingual-MiniLM-L12-v2",
+  "model_version": "v2",
+  "parameter_count": 117653760,
+  "embedding_dimension": 384,
+  "license": "Apache 2.0",
+  "download_size_mb": 471,
+  "max_sequence_length": 128,
+  "quantization": "float32",
+  "architecture": "BERT-based multilingual sentence transformer (MiniLM-L12)",
+  "language_coverage": "50+ languages including English, Hindi, Bengali, Telugu, Kannada, Gujarati, Punjabi, Marathi, Tamil, Malayalam"
+}

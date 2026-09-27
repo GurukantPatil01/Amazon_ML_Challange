@@ -1,0 +1,16 @@
+category	K	total_misses	name_recall	name_address_recall	union_recall
+1. Multilingual Indic Script	10	15	0.0	0.0	0.0
+1. Multilingual Indic Script	25	15	0.0	0.0	0.0
+1. Multilingual Indic Script	50	15	0.0	0.0667	0.0667
+1. Multilingual Indic Script	100	15	0.0	0.0667	0.0667
+1. Multilingual Indic Script	200	15	0.0	0.2	0.2
+2. Missing Target Address	10	3	0.6667	0.3333	0.6667
+2. Missing Target Address	25	3	1.0	0.3333	1.0
+2. Missing Target Address	50	3	1.0	0.3333	1.0
+2. Missing Target Address	100	3	1.0	0.6667	1.0
+2. Missing Target Address	200	3	1.0	0.6667	1.0
+3. Severe OCR / Typo Distortion	10	13	0.5385	0.9231	0.9231
+3. Severe OCR / Typo Distortion	25	13	0.5385	0.9231	0.9231
+3. Severe OCR / Typo Distortion	50	13	0.6154	0.9231	0.9231
+3. Severe OCR / Typo Distortion	100	13	0.7692	0.9231	1.0
+3. Severe OCR / Typo Distortion	200	13	0.8462	0.9231	1.0

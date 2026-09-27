@@ -1,0 +1,32 @@
+s1_id	target_source	target_id	failure_category	name_rank	name_similarity	name_address_rank	name_address_similarity	retrieved_by_name	retrieved_by_name_address
+S1-713886955	source3	S3-244551534	3. Severe OCR / Typo Distortion	999	0.4967	2	0.7861	0	1
+S1-900135353	source2	S2-881037529	1. Multilingual Indic Script	999	0.0767	999	0.4738	0	0
+S1-497653195	source2	S2-514118622	1. Multilingual Indic Script	999	0.0115	999	0.4797	0	0
+S1-522879734	source3	S3-284561873	1. Multilingual Indic Script	999	-0.0106	999	0.6604	0	0
+S1-49474663	source2	S2-784017251	1. Multilingual Indic Script	999	-0.007	999	0.5365	0	0
+S1-387819994	source2	S2-821872573	3. Severe OCR / Typo Distortion	2	0.7805	1	0.7936	1	1
+S1-566143634	source2	S2-280387127	1. Multilingual Indic Script	999	0.0316	999	0.513	0	0
+S1-235827905	source3	S3-873543936	3. Severe OCR / Typo Distortion	7	0.8667	1	0.9352	1	1
+S1-235827905	source3	S3-245041126	1. Multilingual Indic Script	999	0.0151	999	0.3396	0	0
+S1-618364441	source2	S2-773032786	1. Multilingual Indic Script	999	0.0506	37	0.6899	0	1
+S1-221384458	source2	S2-70880749	1. Multilingual Indic Script	999	0.0826	192	0.6603	0	0
+S1-946901276	source2	S2-465552220	3. Severe OCR / Typo Distortion	100	0.4593	999	0.5354	1	0
+S1-380094562	source2	S2-254066509	3. Severe OCR / Typo Distortion	999	0.3421	1	0.7729	0	1
+S1-921119146	source3	S3-215617986	3. Severe OCR / Typo Distortion	4	0.7182	1	0.9593	1	1
+S1-549086594	source2	S2-808013831	1. Multilingual Indic Script	999	0.0639	999	0.5631	0	0
+S1-125132307	source3	S3-11641846	3. Severe OCR / Typo Distortion	1	0.8919	1	0.9403	1	1
+S1-138706126	source3	S3-7669744	3. Severe OCR / Typo Distortion	3	0.9475	1	0.9554	1	1
+S1-383319619	source3	S3-693673409	2. Missing Target Address	2	0.7483	999	0.5588	1	0
+S1-725482440	source2	S2-447747530	3. Severe OCR / Typo Distortion	1	0.8223	1	0.9089	1	1
+S1-786497576	source2	S2-787350941	3. Severe OCR / Typo Distortion	138	0.5483	1	0.7144	0	1
+S1-705366048	source3	S3-465809081	3. Severe OCR / Typo Distortion	1	0.944	1	0.844	1	1
+S1-148848342	source3	S3-445550561	3. Severe OCR / Typo Distortion	35	0.6382	1	0.7441	1	1
+S1-86561619	source3	S3-248586476	1. Multilingual Indic Script	999	0.315	146	0.7249	0	0
+S1-309658496	source3	S3-600088937	2. Missing Target Address	13	0.6095	92	0.5217	1	1
+S1-959580291	source2	S2-998661747	2. Missing Target Address	1	0.971	1	0.913	1	1
+S1-955866957	source2	S2-86825041	1. Multilingual Indic Script	999	0.0244	999	0.5586	0	0
+S1-173971969	source3	S3-210351517	3. Severe OCR / Typo Distortion	67	0.5746	9	0.7682	1	1
+S1-650254962	source3	S3-15338428	1. Multilingual Indic Script	999	-0.01	999	0.6699	0	0
+S1-420915986	source2	S2-911182333	1. Multilingual Indic Script	999	0.0132	999	0.622	0	0
+S1-85659903	source3	S3-980886320	1. Multilingual Indic Script	999	0.1262	999	0.5328	0	0
+S1-740947714	source2	S2-434065398	1. Multilingual Indic Script	999	0.1585	999	0.7	0	0
