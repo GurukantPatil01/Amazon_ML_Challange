@@ -1,0 +1,31 @@
+{
+  "total_ground_truth_pairs": 483,
+  "total_candidate_misses": 53,
+  "candidate_recall_lost_pct": 10.97,
+  "source_breakdown": {
+    "source2": 27,
+    "source3": 26
+  },
+  "country_breakdown": {
+    "india": 29,
+    "us": 24
+  },
+  "name_similarity_distribution": {
+    "exact_normalized_name": 0,
+    "exact_core_name": 0,
+    "high_name_similarity_ge_070": 21,
+    "moderate_name_similarity_040_to_070": 12,
+    "low_name_similarity_lt_040": 20,
+    "first_token_match": 13,
+    "same_initials": 9
+  },
+  "address_similarity_distribution": {
+    "exact_address_match": 5,
+    "missing_address": 3,
+    "house_number_match": 22,
+    "postal_code_match": 2,
+    "high_address_overlap_ge_050": 46
+  },
+  "model_misses_count": 82,
+  "false_positives_count": 17
+}

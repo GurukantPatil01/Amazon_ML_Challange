@@ -1,0 +1,87 @@
+{
+  "phase": "Phase 3 Locked Baseline",
+  "git_commit": "831b389f098d4e4762a7cb885e395e1454f00782",
+  "benchmark_scope": {
+    "validation_s1_count": 3000,
+    "training_s1_count": 12000,
+    "target_pool_size": 500000,
+    "target_source2_pool": 250000,
+    "target_source3_pool": 250000
+  },
+  "metrics": {
+    "macro_f05": 0.9532,
+    "macro_f05_exact": 0.953167,
+    "macro_precision_all_s1": 0.953667,
+    "macro_precision_predicted_only": 0.953353,
+    "macro_precision_non_singleton": 0.726667,
+    "micro_precision": 0.956044,
+    "macro_recall_all_s1": 0.9575,
+    "micro_recall": 0.720497,
+    "end_to_end_recall": 0.720497,
+    "candidate_recall": 0.890269,
+    "model_recall_among_candidates": 0.809302,
+    "threshold": 0.45,
+    "total_ground_truth_positive_pairs": 483,
+    "candidate_true_pairs": 430,
+    "total_predicted_pairs": 364,
+    "true_positives": 348,
+    "false_positives": 16,
+    "false_negatives": 135
+  },
+  "singleton_metrics": {
+    "total_singletons": 2550,
+    "singleton_ratio": 0.85,
+    "singleton_empty_correct": 2534,
+    "singleton_fp_count": 16,
+    "singleton_exact_empty_accuracy": 0.993725,
+    "singleton_false_match_rate": 0.006275,
+    "mean_singleton_f05": 0.993725,
+    "contribution_to_macro_f05": 0.844667
+  },
+  "non_singleton_metrics": {
+    "total_non_singletons": 450,
+    "non_singleton_ratio": 0.15,
+    "true_positives": 348,
+    "false_positives": 0,
+    "false_negatives": 135,
+    "mean_non_singleton_f05": 0.723333,
+    "contribution_to_macro_f05": 0.1085
+  },
+  "model": {
+    "model_type": "LightGBM Booster (binary classification)",
+    "model_path": "models/lightgbm_baseline.txt",
+    "feature_count": 40,
+    "best_iteration": 36
+  },
+  "blocking_configuration": {
+    "active_strategies": [
+      "exact_name",
+      "name_core",
+      "rare_token",
+      "char_3gram_k10",
+      "house_name",
+      "combined_postal_name",
+      "address_token"
+    ],
+    "candidate_budget_k": 200,
+    "ranking_policy": "multi_block_support",
+    "country_partitioning": true
+  },
+  "normalization_configuration": {
+    "unicode_normalization": "NFKC",
+    "case_folding": "lowercase",
+    "legal_suffix_stripping": true,
+    "punctuation_handling": "regex [^a-z0-9 ]+",
+    "derived_fields": [
+      "name_norm",
+      "name_core",
+      "name_tokens",
+      "name_sorted_tokens",
+      "name_char_3gram",
+      "address_norm",
+      "postal_code",
+      "house_number",
+      "country_norm"
+    ]
+  }
+}

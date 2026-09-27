@@ -39,9 +39,13 @@ models/*
 !models/.gitkeep
 !models/*.txt
 experiments/*
+!experiments/*/
 !experiments/.gitkeep
 !experiments/*.md
 !experiments/*.tsv
+!experiments/**/*.md
+!experiments/**/*.tsv
+!experiments/**/*.json
 
 # Generated Outputs & Submissions
 output/*
