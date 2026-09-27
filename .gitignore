@@ -40,6 +40,7 @@ models/*
 experiments/*
 !experiments/.gitkeep
 !experiments/*.md
+!experiments/*.tsv
 
 # Generated Outputs & Submissions
 output/*
