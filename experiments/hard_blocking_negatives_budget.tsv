@@ -1,0 +1,601 @@
+source1_entity_id	candidate_entity_id	country	s1_name	candidate_name	s1_address	candidate_address	negative_category	blocking_sources
+S1-133037285	S2-980137130	us	Christ Chapel	Christ Chapel	2100 Cameron Drive, Unit APARTMENT G, Dundalk, MD	3565 BAXTER DR, MT, HELNA	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-133037285	S2-387504930	us	Christ Chapel	Christ  Chapel	2100 Cameron Drive, Unit APARTMENT G, Dundalk, MD	3730 Rodesco Dr, PUYALLUP, WA	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-133037285	S2-372466877	us	Christ Chapel	CHRIST CHAPEL CORP	2100 Cameron Drive, Unit APARTMENT G, Dundalk, MD	030606 PLANTATION DR, DAMON, TX	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-133037285	S2-857147519	us	Christ Chapel	CHRIST CHAPEL INC.	2100 Cameron Drive, Unit APARTMENT G, Dundalk, MD	73 LASALLE AVE, BUFFALO, NY	Same Core Name, Different Entity	char_3gram_k10,name_core
+S1-133037285	S2-502997597	us	Christ Chapel	Christ Chapel Ltd	2100 Cameron Drive, Unit APARTMENT G, Dundalk, MD	TREMONT STREET, NEW BEDFORD, MA	Same Core Name, Different Entity	char_3gram_k10,name_core
+S1-133037285	S2-98820396	us	Christ Chapel	CHRIST CHAPEL CORP	2100 Cameron Drive, Unit APARTMENT G, Dundalk, MD	976 FORGE RIDGE RD, HARROGATE, TN	Same Core Name, Different Entity	char_3gram_k10,name_core
+S1-133037285	S3-930459289	us	Christ Chapel	Christ Chapel Inc	2100 Cameron Drive, Unit APARTMENT G, Dundalk, MD	1043. Saint Paul Church Rd, null, Clover, South Carolina	Same Core Name, Different Entity	name_core
+S1-865131206	S2-209746679	us	Helios	HELIOS	66 Edgewood Street, Bridgeport, CT	WINSTON-SALEM, 517 OAK SUMMIT ROAD, NC	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-865131206	S2-544979911	us	Helios	Helios	66 Edgewood Street, Bridgeport, CT	1570, GREENVILLE, TX	Same Name, Different Entity	exact_name,name_core,rare_token
+S1-865131206	S2-617606666	us	Helios	#helios	66 Edgewood Street, Bridgeport, CT	12186 SCHOLLS FERRY ROAD, TIGARD, OR	Same Name, Different Entity	exact_name,name_core,rare_token
+S1-865131206	S2-340726883	us	Helios	Helios	66 Edgewood Street, Bridgeport, CT	CARPENTER STREET, GREENSBORO, NC	Same Name, Different Entity	exact_name,name_core,rare_token
+S1-865131206	S2-577724547	us	Helios	Helios	66 Edgewood Street, Bridgeport, CT	5715-5719 ROCKPORT LANDING PLACE, MIDLOTHIAN, VA	Same Name, Different Entity	exact_name,name_core,rare_token
+S1-865131206	S2-622467860	us	Helios	HELIOS	66 Edgewood Street, Bridgeport, CT	##10118 JOY DR, FRISCO, TX	Same Name, Different Entity	exact_name,name_core,rare_token
+S1-865131206	S3-65094669	us	Helios	HELIOS	66 Edgewood Street, Bridgeport, CT	Beaverbrook Drive, Akron CP, Ohio	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-865131206	S3-224060679	us	Helios	Helios	66 Edgewood Street, Bridgeport, CT	2218 Mosteller Estate Ave, Floor B, Hickory CITY, North Carolina	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-865131206	S3-366111218	us	Helios	helios	66 Edgewood Street, Bridgeport, CT	3320 South 20th St, N/A, Council Bluffs DCP, Iowa	Same Name, Different Entity	exact_name,name_core,rare_token
+S1-865131206	S3-634331021	us	Helios	HELIOS	66 Edgewood Street, Bridgeport, CT	222 Hart Boulevard, Staten Island, New York	Same Name, Different Entity	exact_name,name_core,rare_token
+S1-865131206	S3-703082962	us	Helios	#Helios	66 Edgewood Street, Bridgeport, CT	925 Dalton Avenue, Ohio, Cincinnati	Same Name, Different Entity	exact_name,name_core,rare_token
+S1-865131206	S3-931252972	us	Helios	Helios	66 Edgewood Street, Bridgeport, CT	31 Hillside Drive, E Lnogmeadow, Massachusetts	Same Name, Different Entity	exact_name,name_core,rare_token
+S1-865131206	S3-711738044	us	Helios	Helios	66 Edgewood Street, Bridgeport, CT	4425 Park Road, North Carolina, Charlotte, null	Same Name, Different Entity	exact_name,name_core,rare_token
+S1-865131206	S3-685849460	us	Helios	HELIOS	66 Edgewood Street, Bridgeport, CT	Kentucky, Newport Ky, 2721 Alexandria Way	Same Name, Different Entity	exact_name,name_core,rare_token
+S1-865131206	S3-328585688	us	Helios	Helios	66 Edgewood Street, Bridgeport, CT	3010 Cedar View Way, Blaine, Washington	Same Name, Different Entity	exact_name,name_core
+S1-865131206	S3-230798545	us	Helios	Helios	66 Edgewood Street, Bridgeport, CT	Hillside Dr, E Lnogmeadow, Massachusetts	Same Name, Different Entity	exact_name,name_core
+S1-865131206	S3-965822560	us	Helios	Helios	66 Edgewood Street, Bridgeport, CT	1659 Fm 3057, Bay City, Texas	Same Name, Different Entity	exact_name,name_core
+S1-865131206	S2-74226485	us	Helios	Helios Inc	66 Edgewood Street, Bridgeport, CT	#695 PARK LN, PO BOX 3170, MONROE, WA	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-865131206	S2-908474052	us	Helios	Helios Inc	66 Edgewood Street, Bridgeport, CT	6056-6058 BEECHER LOOP, PRESCOTT VALLEY, AZ	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-865131206	S2-310128489	us	Helios	HELIOS  LLC	66 Edgewood Street, Bridgeport, CT	053 2975, ROY, UT	Same Core Name, Different Entity	name_core,rare_token
+S1-865131206	S2-737629109	us	Helios	HELIOS  LLC	66 Edgewood Street, Bridgeport, CT	##4007 SYCAMORE DRIVE, COLMUBUS, IN	Same Core Name, Different Entity	name_core,rare_token
+S1-865131206	S2-300835415	us	Helios	Helios [Inc]	66 Edgewood Street, Bridgeport, CT	CHARLWOOD, NORTHBROOK, IL	Same Core Name, Different Entity	name_core,rare_token
+S1-865131206	S2-909744971	us	Helios	HELIOS LLC	66 Edgewood Street, Bridgeport, CT	12 LINCOLN AVENUE, ALBANY, NY	Same Core Name, Different Entity	name_core,rare_token
+S1-865131206	S2-432480129	us	Helios	HELIOS-LLC	66 Edgewood Street, Bridgeport, CT	2317 WINTERS DR, GRANITE CITY, IL	Same Core Name, Different Entity	name_core,rare_token
+S1-865131206	S2-237038454	us	Helios	HELIOS LLC	66 Edgewood Street, Bridgeport, CT	1033 Condor Junction Rd, WENDELL, NC	Same Core Name, Different Entity	name_core,rare_token
+S1-865131206	S2-703500620	us	Helios	helios ltd	66 Edgewood Street, Bridgeport, CT	0126 HOUSTON ST, FORT WORTH, TX	Same Core Name, Different Entity	name_core,rare_token
+S1-865131206	S2-336336951	us	Helios	Helios Co	66 Edgewood Street, Bridgeport, CT	VA, TAZEWELL COUNTY, 2212 1/2 WITTENS MILL ROAD	Same Core Name, Different Entity	name_core,rare_token
+S1-865131206	S2-541199318	us	Helios	Helios LLC	66 Edgewood Street, Bridgeport, CT	494 HUB BOULEVARD, BOWLING GREEN, KY	Same Core Name, Different Entity	name_core,rare_token
+S1-865131206	S2-903221804	us	Helios	Helios Co	66 Edgewood Street, Bridgeport, CT	244-246 GOLDEN RD, PO BOX 4480, ROCHESTER, NY	Same Core Name, Different Entity	name_core,rare_token
+S1-865131206	S3-678201732	us	Helios	Helios-Inc	66 Edgewood Street, Bridgeport, CT	1111 Oakland Avenue, Illinois, Bloomington	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-865131206	S3-547676646	us	Helios	Helios Ltd	66 Edgewood Street, Bridgeport, CT	2164 Hickory Brook Drive, Nashville, Tennessee	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-865131206	S3-774278909	us	Helios	Helios LLC	66 Edgewood Street, Bridgeport, CT	31 C St, Quincy, Washington	Same Core Name, Different Entity	name_core,rare_token
+S1-865131206	S3-261169366	us	Helios	Helios  Limited	66 Edgewood Street, Bridgeport, CT	22 19nd Ave, Beech Grove, Indiana	Same Core Name, Different Entity	name_core,rare_token
+S1-865131206	S3-416844865	us	Helios	Helios  LLC	66 Edgewood Street, Bridgeport, CT	Condor Junction Road, Wendell, North Carolina	Same Core Name, Different Entity	name_core,rare_token
+S1-865131206	S3-801291501	us	Helios	Helios-Inc.	66 Edgewood Street, Bridgeport, CT	463-467 State Street, # 36, Orem, Utah	Same Core Name, Different Entity	name_core,rare_token
+S1-865131206	S3-237845077	us	Helios	Helios Inc.	66 Edgewood Street, Bridgeport, CT	280 Vance Street, Wilmington, North Carolina	Same Core Name, Different Entity	name_core,rare_token
+S1-865131206	S3-698639637	us	Helios	Helios Ltd	66 Edgewood Street, Bridgeport, CT	3622 Kitty Hawk Dr, Bremerton CIY, Washington	Same Core Name, Different Entity	name_core,rare_token
+S1-865131206	S3-767978021	us	Helios	HELIOS LLC	66 Edgewood Street, Bridgeport, CT	102 Sabal Dr, PMB 6928, Wilmington, North Carolina	Same Core Name, Different Entity	name_core,rare_token
+S1-865131206	S3-910623629	us	Helios	Helios Inc	66 Edgewood Street, Bridgeport, CT	7 Bliss Road, Lakeville, Massachusetts	Same Core Name, Different Entity	name_core,rare_token
+S1-865131206	S3-267403916	us	Helios	Helios LLC	66 Edgewood Street, Bridgeport, CT	3151-B 900, Farmount, Indiana	Same Core Name, Different Entity	name_core,rare_token
+S1-865131206	S3-695772312	us	Helios	*** Helios LLC	66 Edgewood Street, Bridgeport, CT	409-411 English Street, Danville, Illinois	Same Core Name, Different Entity	name_core,rare_token
+S1-865131206	S3-381403928	us	Helios	helios inc.	66 Edgewood Street, Bridgeport, CT	21-C Zwicks Farm Rd, Southington, Connecticut	Same Core Name, Different Entity	name_core
+S1-990319941	S2-181633374	us	Holy Synagogue	*** Holy Synagogue	Sapulpa, OK, 2204 Park Street	716 BOLWING CAVE RD, SEVIERVILLE, TN	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-990319941	S2-198325409	us	Holy Synagogue	Holy Synagogue	Sapulpa, OK, 2204 Park Street	1310 HORIZON DR, MARSHALL, MN	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-990319941	S2-95835320	us	Holy Synagogue	Holy Synagogue	Sapulpa, OK, 2204 Park Street	194 Azalea Dr, GADSDEN, AL	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-990319941	S2-742590392	us	Holy Synagogue	HOLY  SYNAGOGUE	Sapulpa, OK, 2204 Park Street	WASHINGTON STREET, BROWNSVILLE, TX	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-990319941	S2-958937890	us	Holy Synagogue	Holy  Synagogue	Sapulpa, OK, 2204 Park Street	006825 RED HOUSE ROAD, APPOMATTOX, VA	Same Name, Different Entity	exact_name,name_core
+S1-990319941	S3-525707099	us	Holy Synagogue	HOLY SYNAGOGUE	Sapulpa, OK, 2204 Park Street	0252 Easton Rd, Easton, Maine	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-990319941	S3-121016100	us	Holy Synagogue	HOLY SYNAGOGUE	Sapulpa, OK, 2204 Park Street	102 Pushmataha Ct, Dauphin Island CITY, Alabama	Same Name, Different Entity	exact_name,name_core
+S1-990319941	S2-74209293	us	Holy Synagogue	holy synagogue co	Sapulpa, OK, 2204 Park Street	WA, LYNNWOOD, 6716 200TH ST	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-990319941	S2-383997398	us	Holy Synagogue	Holy Synagogue Corporation	Sapulpa, OK, 2204 Park Street	1609 8TH ST, MASON CITY, IA	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-791217329	S2-903446816	india	Indian Brothers Private Limited	indian brothers private limited	#17/1, Lower Ground Floor, 1St Cross, Lalbagh Road, Bangalore South, Bangalore, Karnataka	পশ্চিমবঙ্গ, DOOR NO 49 C/O SWARUP SAHA KALNA KALNA I SASHPUR KALNA KALNA P, BARDHAMAN	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-791217329	S2-981949802	india	Indian Brothers Private Limited	Indian Brothers	#17/1, Lower Ground Floor, 1St Cross, Lalbagh Road, Bangalore South, Bangalore, Karnataka	F-643-A, MIA EXTENSION, RAMGARH, राजस्थान	Same Core Name, Different Entity	name_core
+S1-791217329	S2-892330737	india	Indian Brothers Private Limited	Indian Brothers Corp	#17/1, Lower Ground Floor, 1St Cross, Lalbagh Road, Bangalore South, Bangalore, Karnataka	F-643-A, MIA EXTENSION, RAMGARH, Rajasthan	Same Core Name, Different Entity	name_core
+S1-401372098	S2-970742178	us	Apex Inc	Apex, Inc	108 Richardson Street, Bethany, WV	24 EMS D18 LANE, SYRACUSE, IN	Same Name, Different Entity	exact_name,name_core
+S1-401372098	S2-357104008	us	Apex Inc	apex, inc	108 Richardson Street, Bethany, WV	4735 HONEY OAK RUN, FORT WAYNE, IN	Same Name, Different Entity	exact_name,name_core
+S1-401372098	S3-78126814	us	Apex Inc	Apex-Inc.	108 Richardson Street, Bethany, WV	7522 165th St, Tinley Park, Illinois	Same Name, Different Entity	exact_name,name_core,rare_token
+S1-401372098	S3-700800212	us	Apex Inc	Apex-Inc	108 Richardson Street, Bethany, WV	359, Crossville, Alabama	Same Name, Different Entity	exact_name,name_core
+S1-401372098	S2-947954302	us	Apex Inc	Apex	108 Richardson Street, Bethany, WV	1128 Swann Street, PARKERSBURG, WV	Same Core Name, Different Entity	name_core,rare_token
+S1-401372098	S2-587113958	us	Apex Inc	Apex Incorporated	108 Richardson Street, Bethany, WV	HAGERSTOWN, 242 1/2 POTOMAC SAINT, MD	Same Core Name, Different Entity	name_core
+S1-401372098	S2-804963475	us	Apex Inc	Apex	108 Richardson Street, Bethany, WV	210 WASHINGTON AVE, ELYRIA, OH	Same Core Name, Different Entity	name_core
+S1-401372098	S2-723456368	us	Apex Inc	Apex	108 Richardson Street, Bethany, WV	11842 ALTADENA AVENUE, EL MIRAGE, AZ	Same Core Name, Different Entity	name_core
+S1-401372098	S2-511462087	us	Apex Inc	Apex, LLC	108 Richardson Street, Bethany, WV	1584 C ST, ARKANSS CITY, KS	Same Core Name, Different Entity	name_core
+S1-401372098	S2-967350220	us	Apex Inc	Apex  Incorporated	108 Richardson Street, Bethany, WV	13617 55ND AVENUE, GLENDALE, AZ	Same Core Name, Different Entity	name_core
+S1-401372098	S2-680259279	us	Apex Inc	Apex LLC	108 Richardson Street, Bethany, WV	NY, 31 ROSE AVENUE, SOUTHAMPTON	Same Core Name, Different Entity	name_core
+S1-401372098	S2-569990287	us	Apex Inc	Apex Ltd	108 Richardson Street, Bethany, WV	11436 208TH ST, KENT, WA	Same Core Name, Different Entity	name_core
+S1-401372098	S3-385524128	us	Apex Inc	Apex	108 Richardson Street, Bethany, WV	1531 Hamby Avenue, Irondale, AL	Same Core Name, Different Entity	name_core,rare_token
+S1-401372098	S3-411829110	us	Apex Inc	APEX CO	108 Richardson Street, Bethany, WV	135 Goodview Way, Gallatin, Tennessee	Same Core Name, Different Entity	name_core
+S1-401372098	S3-967716307	us	Apex Inc	Apex	108 Richardson Street, Bethany, WV	420 Denver Avenue, Paducah, KY	Same Core Name, Different Entity	name_core
+S1-401372098	S3-752234903	us	Apex Inc	Apex Co	108 Richardson Street, Bethany, WV	15620 Lindsey Drive, Alexander, Arkansas	Same Core Name, Different Entity	name_core
+S1-401372098	S3-824301359	us	Apex Inc	APEX LLC	108 Richardson Street, Bethany, WV	Point Roberts, 034 Diane Cir, Washington	Same Core Name, Different Entity	name_core
+S1-401372098	S3-440084834	us	Apex Inc	Apex LLC	108 Richardson Street, Bethany, WV	15202 72nd Drive, Peoria, Arizona	Same Core Name, Different Entity	name_core
+S1-401372098	S3-984773293	us	Apex Inc	Apex,  Corp	108 Richardson Street, Bethany, WV	4234 Elk Creek Dr, Salisbury, Maryland	Same Core Name, Different Entity	name_core
+S1-401372098	S3-258849600	us	Apex Inc	Apex	108 Richardson Street, Bethany, WV	#2600 Northwestern Dr, Lima, Ohio	Same Core Name, Different Entity	name_core
+S1-401372098	S3-681751808	us	Apex Inc	Apex Corporation	108 Richardson Street, Bethany, WV	2999 Bear Creek Road, Cookeville, Tennessee	Same Core Name, Different Entity	name_core
+S1-401372098	S3-817058158	us	Apex Inc	apex	108 Richardson Street, Bethany, WV	California, Unit APT 149, 2929 Routier Road, Sacramento	Same Core Name, Different Entity	name_core
+S1-401372098	S3-991508601	us	Apex Inc	Apex  Logistics Global LLC | www.apexlogi.com	108 Richardson Street, Bethany, WV	108 Naomi Ln, Townsend, Delaware	Same House Number, Different Entity	house_name
+S1-370715897	S2-113363527	us	Primary Care Physicians Inc.	Primary Care Physicians-Inc.	53 Park Lane, Wellsville, NY	790 OLD DENNING ROAD, null, PRINCETON, NC	Same Name, Different Entity	exact_name,name_core
+S1-370715897	S2-713228091	us	Primary Care Physicians Inc.	Primary Care Physicians Inc	53 Park Lane, Wellsville, NY	2584 MCINTYRE ROAD, SAVANNA, IL	Same Name, Different Entity	exact_name,name_core
+S1-370715897	S3-147162324	us	Primary Care Physicians Inc.	Primary Care Physicians Inc	53 Park Lane, Wellsville, NY	302 Beech Ln, Middletown, Delaware	Same Name, Different Entity	exact_name,name_core
+S1-370715897	S3-71936380	us	Primary Care Physicians Inc.	Primary Care Physicians Inc	53 Park Lane, Wellsville, NY	530 Foxtrail Cir, Westerville, Ohio	Same Name, Different Entity	exact_name,name_core
+S1-370715897	S3-830903007	us	Primary Care Physicians Inc.	Primary Care Physicians-Inc	53 Park Lane, Wellsville, NY	7316 Deer Meadows Ct, North Little Rock, Arkansas	Same Name, Different Entity	exact_name,name_core
+S1-370715897	S2-525390784	us	Primary Care Physicians Inc.	PRIMARY CARE PHYSICIANS	53 Park Lane, Wellsville, NY	CHARDON, OH, 10516 THWING ROAD	Same Core Name, Different Entity	char_3gram_k10,name_core
+S1-370715897	S2-779938874	us	Primary Care Physicians Inc.	Primary Care Physicians	53 Park Lane, Wellsville, NY	203 WASHINGTON ST, FARMINGTON, WA	Same Core Name, Different Entity	char_3gram_k10,name_core
+S1-370715897	S2-152334398	us	Primary Care Physicians Inc.	Primary Care Physicians Ltd	53 Park Lane, Wellsville, NY	WASHINGTON, DC, 5140 NEBRASKA AVE	Same Core Name, Different Entity	char_3gram_k10,name_core
+S1-370715897	S2-260493939	us	Primary Care Physicians Inc.	Primary Care Physicians  LLC	53 Park Lane, Wellsville, NY	151 MISSY LN, SHERIDAN, AR	Same Core Name, Different Entity	name_core
+S1-370715897	S2-925356347	us	Primary Care Physicians Inc.	Primary Care Physicians Corporation	53 Park Lane, Wellsville, NY	3108-A CANNOCK LN, COLUMBUS, OH	Same Core Name, Different Entity	name_core
+S1-370715897	S2-171797283	us	Primary Care Physicians Inc.	Primary Care Physicians  LLC	53 Park Lane, Wellsville, NY	IL, #1021 ROCK ISLAND AVE, PEORIA	Same Core Name, Different Entity	name_core
+S1-370715897	S3-77867037	us	Primary Care Physicians Inc.	Primary  Care Physicians	53 Park Lane, Wellsville, NY	1712 Oberlin Drive, High Point, North Carolina	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-370715897	S3-993926129	us	Primary Care Physicians Inc.	Primary  Care Physicians	53 Park Lane, Wellsville, NY	7613 Vestal Blvd, North Little Rock, Arkansas	Same Core Name, Different Entity	char_3gram_k10,name_core
+S1-370715897	S3-598541733	us	Primary Care Physicians Inc.	Primary Care  Physicians	53 Park Lane, Wellsville, NY	4028 Coventry Ln, Fort Wayne, Indiana	Same Core Name, Different Entity	name_core
+S1-370715897	S3-588200355	us	Primary Care Physicians Inc.	Primary Care Physicians	53 Park Lane, Wellsville, NY	001486 Anneta Rd, # 5, Leitchfield, Kentucky	Same Core Name, Different Entity	name_core
+S1-370715897	S3-520860547	us	Primary Care Physicians Inc.	Primary Care  Physicians LLC	53 Park Lane, Wellsville, NY	3050. 202nd Avenue, Beaverton CDP, Oregon	Same Core Name, Different Entity	name_core
+S1-370715897	S3-669946601	us	Primary Care Physicians Inc.	Primary Care Physicians Llc	53 Park Lane, Wellsville, NY	23803 Via Leoni Dr, New Caney, Texas	Same Core Name, Different Entity	name_core
+S1-370715897	S3-667251267	us	Primary Care Physicians Inc.	Primary Care Physicians [Corp]	53 Park Lane, Wellsville, NY	Ar 264 Hwy, Lowell, Arkansas	Same Core Name, Different Entity	name_core
+S1-370715897	S2-70367717	us	Primary Care Physicians Inc.	Eye Unified	53 Park Lane, Wellsville, NY	WELLSVILLE, NY, 53 KING STREET	Same House Number, Different Entity	address_token
+S1-27029362	S2-165707418	us	Global Ministries	Global Ministries	74 429, Stockdale, TX	315 BAYVIEW AVE, DEWEY BEACH, DE	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-27029362	S3-264631676	us	Global Ministries	global ministries	74 429, Stockdale, TX	44 Egerton Rd, Arlington, Massachusetts	Same Name, Different Entity	exact_name,name_core
+S1-27029362	S2-89703733	us	Global Ministries	Global (Project)	74 429, Stockdale, TX	74 MAIN STREET, DOBBS FERRY, NY	Same House Number, Different Entity	house_name
+S1-514155563	S2-252130764	us	Horizon LLC	HORIZON, LLC	2025 Sterigere Street, West Norriton Township, PA	WA, LILLIWAUP, 991 COLONY SURF DR	Same Name, Different Entity	exact_name,name_core,rare_token
+S1-514155563	S2-324109559	us	Horizon LLC	Horizon  LLC	2025 Sterigere Street, West Norriton Township, PA	05960 141nd Avenue, BEAVERTON, OR	Same Name, Different Entity	exact_name,name_core
+S1-514155563	S2-538812525	us	Horizon LLC	Horizon, LLC	2025 Sterigere Street, West Norriton Township, PA	320 NORTHGATE BOULEVARD, INDIAN TRAIL, NC	Same Name, Different Entity	exact_name,name_core
+S1-514155563	S2-668189279	us	Horizon LLC	Horizon Llc	2025 Sterigere Street, West Norriton Township, PA	7019 GEOGRIA AVE, WASHINGTON, DC	Same Name, Different Entity	exact_name,name_core
+S1-514155563	S3-555286550	us	Horizon LLC	Horizon, LLC	2025 Sterigere Street, West Norriton Township, PA	##24082 180rd St, Anamosatownship, Iowa	Same Name, Different Entity	exact_name,name_core
+S1-514155563	S3-680618024	us	Horizon LLC	HORIZON LLC	2025 Sterigere Street, West Norriton Township, PA	Glen Alpine, North Carolina, 604 Pea Ridge St	Same Name, Different Entity	exact_name,name_core
+S1-514155563	S3-732834874	us	Horizon LLC	Horizon LLC	2025 Sterigere Street, West Norriton Township, PA	1702 Native Dancer Drive, Alabama, Helena	Same Name, Different Entity	exact_name,name_core
+S1-514155563	S2-946872072	us	Horizon LLC	HORIZON	2025 Sterigere Street, West Norriton Township, PA	00315 Mason Street, SPRINGFIELD, IL	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-514155563	S2-347330149	us	Horizon LLC	HORIZON CORP	2025 Sterigere Street, West Norriton Township, PA		Same Core Name, Different Entity	name_core
+S1-514155563	S2-601671492	us	Horizon LLC	HORIZON CO.	2025 Sterigere Street, West Norriton Township, PA	142 HATLEY-BURRIS ROAD, RED CROSS, NC	Same Core Name, Different Entity	name_core
+S1-514155563	S2-800852337	us	Horizon LLC	Horizon	2025 Sterigere Street, West Norriton Township, PA	EASTMONT, 011521 56TH DR, WA	Same Core Name, Different Entity	name_core
+S1-514155563	S2-322562376	us	Horizon LLC	Horizon (Inc)	2025 Sterigere Street, West Norriton Township, PA		Same Core Name, Different Entity	name_core
+S1-514155563	S2-358211105	us	Horizon LLC	Horizon	2025 Sterigere Street, West Norriton Township, PA	3828 GOLDFINCH DRIVE, CRVALLIS, OR	Same Core Name, Different Entity	name_core
+S1-514155563	S2-422154923	us	Horizon LLC	Horizon Inc	2025 Sterigere Street, West Norriton Township, PA	7300 DANCING EAGLE AVENUE, ALBUQUERQUE, NM	Same Core Name, Different Entity	name_core
+S1-514155563	S2-612889041	us	Horizon LLC	Horizon Inc	2025 Sterigere Street, West Norriton Township, PA	#2384 SCHLOSSER RD, HARLEYSVILLE, PA	Same Core Name, Different Entity	name_core
+S1-514155563	S2-663697186	us	Horizon LLC	horizon ltd	2025 Sterigere Street, West Norriton Township, PA	562 DOGWMOD AVENUE, PO BOX 2249, FRESNO, TX	Same Core Name, Different Entity	name_core
+S1-514155563	S2-205334308	us	Horizon LLC	... Horizon  Corp	2025 Sterigere Street, West Norriton Township, PA	01234 BITTEROOT COURT, INDIANAPOLIS, IN	Same Core Name, Different Entity	name_core
+S1-514155563	S3-515223682	us	Horizon LLC	Horizon Inc	2025 Sterigere Street, West Norriton Township, PA	10626 Farmersville Fork, Missouri CITY CIY, Texas	Same Core Name, Different Entity	name_core,rare_token
+S1-514155563	S3-631782044	us	Horizon LLC	Horizon Inc	2025 Sterigere Street, West Norriton Township, PA	4892 Island Road, Bristol, Tennessee	Same Core Name, Different Entity	name_core
+S1-514155563	S3-129768137	us	Horizon LLC	Horizon Corp	2025 Sterigere Street, West Norriton Township, PA	639 Adams St, Boston, Massachusetts	Same Core Name, Different Entity	name_core
+S1-514155563	S3-755825450	us	Horizon LLC	Horizon Ltd	2025 Sterigere Street, West Norriton Township, PA	609-611 Williams Avenue, East Liverpool, Ohio	Same Core Name, Different Entity	name_core
+S1-514155563	S3-514050393	us	Horizon LLC	horizon	2025 Sterigere Street, West Norriton Township, PA	Pompey Road, Ashford, Connecticut	Same Core Name, Different Entity	name_core
+S1-514155563	S3-670110696	us	Horizon LLC	Horizon	2025 Sterigere Street, West Norriton Township, PA	Washington, 4849 Wedgewood Ct, Blaine, <NULL>	Same Core Name, Different Entity	name_core
+S1-514155563	S3-708558955	us	Horizon LLC	Horizon	2025 Sterigere Street, West Norriton Township, PA	410 Edison Ave, Buckeye, Arizona	Same Core Name, Different Entity	name_core
+S1-514155563	S3-113090540	us	Horizon LLC	Horizon	2025 Sterigere Street, West Norriton Township, PA	841-B Liberty Bell Ln, Libertyville, Illinois	Same Core Name, Different Entity	name_core
+S1-514155563	S3-783317988	us	Horizon LLC	Horizon (Inc)	2025 Sterigere Street, West Norriton Township, PA	1145d Micheline Terrace, Richmond, Virginia	Same Core Name, Different Entity	name_core
+S1-514155563	S3-794543742	us	Horizon LLC	Horizon Inc	2025 Sterigere Street, West Norriton Township, PA	5727 Coffee Pot Ln, Acton, Texas	Same Core Name, Different Entity	name_core
+S1-514155563	S3-125997147	us	Horizon LLC	Horizon	2025 Sterigere Street, West Norriton Township, PA	106 Hampton Vista Drive, Manorville, New York	Same Core Name, Different Entity	name_core
+S1-492467148	S2-432259596	us	Cure Bike Shop	CURE BIKE SHOP	1317 University City Boulevard, Unit APT 5, Blacksburg Town, VA	207. COBBLE STONE CT, VICTORIA, TX	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-492467148	S3-178421278	us	Cure Bike Shop	cure bike shop	1317 University City Boulevard, Unit APT 5, Blacksburg Town, VA	5826 Piney Fork Rd, Pine Gove Township, West Virginia	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-492467148	S3-17955028	us	Cure Bike Shop	Cure Bike (Shop!)	1317 University City Boulevard, Unit APT 5, Blacksburg Town, VA	12634 74st Avenue, Seattle, Washington	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-492467148	S3-403645908	us	Cure Bike Shop	Cure Bike  Shop	1317 University City Boulevard, Unit APT 5, Blacksburg Town, VA	6208 Blue St, Glenfield, New York	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-492467148	S3-721528304	us	Cure Bike Shop	Cure Bike Shop	1317 University City Boulevard, Unit APT 5, Blacksburg Town, VA	2008 Mereta Drive, Mckinney, Texas	Same Name, Different Entity	exact_name,name_core
+S1-492467148	S3-546431006	us	Cure Bike Shop	Cure Bike Shop Corporation	1317 University City Boulevard, Unit APT 5, Blacksburg Town, VA	162 Cordaville Road, # 120, Southborough, Massachusetts	Same Core Name, Different Entity	name_core
+S1-492467148	S3-286182489	us	Cure Bike Shop	Cure Bike Shop Incorporated	1317 University City Boulevard, Unit APT 5, Blacksburg Town, VA	12645 Zeller Road, Fl. 1, Yelm, Washington	Same Core Name, Different Entity	name_core
+S1-947119891	S2-243138095	us	Prairie Initiative	prairie initiative	15 Bellview Avenue, Brookhaven, NY	34 169TH DR, GOODEYAR, AZ	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-947119891	S2-582376177	us	Prairie Initiative	Prairie Initiative Inc	15 Bellview Avenue, Brookhaven, NY	2371 PARK AVE, CINCINNATI, OH	Same Core Name, Different Entity	name_core
+S1-947119891	S3-409984544	us	Prairie Initiative	Prairie Perdiatrcs	15 Bellview Avenue, Brookhaven, NY	15 Parkway Boulevard N, Unit 452, Deerfield, Illinois	Same House Number, Different Entity	house_name
+S1-947119891	S3-260998217	us	Prairie Initiative	Prairie Grand ópportunity	15 Bellview Avenue, Brookhaven, NY	15 Mountain View Dr, Wolcott, Connecticut	Same House Number, Different Entity	house_name
+S1-947119891	S3-125626052	us	Prairie Initiative	Classic Diagnostic Corporation Corp	15 Bellview Avenue, Brookhaven, NY	15 C Saratoga Ct, PMB 3464, Brookhaven, New York	Same House Number, Different Entity	address_token
+S1-708796012	S2-590685339	us	Board of Consumer Affairs	Board of-Consumer [Affairs]	122 Dayton Yellow Springs Road, Unit 4, Fairborn, OH	Briarwood Circle, CRYSTAL LAKE, IL	Same Name, Different Entity	exact_name,name_core
+S1-708796012	S2-260948862	us	Board of Consumer Affairs	BOARD OF CONSUMER AFFAIRS	122 Dayton Yellow Springs Road, Unit 4, Fairborn, OH	OH, UHRICHSVILLE, 313 MCCAULEY DR	Same Name, Different Entity	exact_name,name_core
+S1-708796012	S3-506283305	us	Board of Consumer Affairs	Board Of Consumer Affairs	122 Dayton Yellow Springs Road, Unit 4, Fairborn, OH	1500 18th Street, Unit Lot 67, Mniot, North Dakota	Same Name, Different Entity	exact_name,name_core
+S1-708796012	S2-837104461	us	Board of Consumer Affairs	Board of Consumer Affairs LLC	122 Dayton Yellow Springs Road, Unit 4, Fairborn, OH	1046 SENECA DR, PO BOX 5448, WAUSEON, OH	Same Core Name, Different Entity	name_core
+S1-708796012	S3-652275772	us	Board of Consumer Affairs	Board of Consumer Affairs Ltd	122 Dayton Yellow Springs Road, Unit 4, Fairborn, OH	845 County Road 1400, Chickasha, Oklahoma	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-708796012	S3-319762905	us	Board of Consumer Affairs	Board of  Consumer Affairs Corp	122 Dayton Yellow Springs Road, Unit 4, Fairborn, OH	720 Collinwood Ct, Nashville, Tennessee	Same Core Name, Different Entity	name_core,rare_token
+S1-708796012	S3-557083693	us	Board of Consumer Affairs	Board Of Consumer Affairs Inc.	122 Dayton Yellow Springs Road, Unit 4, Fairborn, OH	332 Main Street, Torrington, Connecticut	Same Core Name, Different Entity	name_core,rare_token
+S1-708796012	S2-179084968	us	Board of Consumer Affairs	Office of Veterans Affairs LP	122 Dayton Yellow Springs Road, Unit 4, Fairborn, OH	122 LINCOLN ROAD, BROOKLYN, NY	Same House Number, Different Entity	rare_token
+S1-746273151	S2-769594899	us	Pediatric Dental Physicians Inc	Pediatric Dental Physicians Inc.	53 Laroche Lane, Hebron, ME	540 MOORING LANE, DAYTON, OH	Same Name, Different Entity	exact_name,name_core
+S1-746273151	S2-304691831	us	Pediatric Dental Physicians Inc	Pediatric Dental Physicians Inc	53 Laroche Lane, Hebron, ME	9-11 M ST, WASHINGTON, DC	Same Name, Different Entity	exact_name,name_core
+S1-746273151	S2-597770411	us	Pediatric Dental Physicians Inc	PEDIATRIC DENTAL PHYSICIANS INC	53 Laroche Lane, Hebron, ME	9 CHASE AVENUE, SOUTH NYACK, NY	Same Name, Different Entity	exact_name,name_core
+S1-746273151	S3-538882911	us	Pediatric Dental Physicians Inc	Pediatric Dental Physicians Inc.	53 Laroche Lane, Hebron, ME		Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-746273151	S3-491459679	us	Pediatric Dental Physicians Inc	Pediatric Dental Physicians [Inc]	53 Laroche Lane, Hebron, ME	1510 Frosty Way, NULL, Knoxville, Tennessee	Same Name, Different Entity	exact_name,name_core
+S1-746273151	S2-535762772	us	Pediatric Dental Physicians Inc	Pediatric  Dental Physicians LLC	53 Laroche Lane, Hebron, ME	6-C GAY HEAD STREET, JAMAICAP LAIN, MA	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-746273151	S2-853807040	us	Pediatric Dental Physicians Inc	Pediatric Dental Physicians	53 Laroche Lane, Hebron, ME	430 CARROLL AVE, AMES, IA	Same Core Name, Different Entity	name_core
+S1-746273151	S2-817651174	us	Pediatric Dental Physicians Inc	PEDIATRIC DENTAL  PHYSICIANS LTD	53 Laroche Lane, Hebron, ME	311 TALLN COURT, PO BOX 4478, SMYRNA, DE	Same Core Name, Different Entity	name_core
+S1-746273151	S2-586596654	us	Pediatric Dental Physicians Inc	Pediatric Dental  Physicians LLC	53 Laroche Lane, Hebron, ME	FOP LODGE RD, JACKSON SGAP, AL	Same Core Name, Different Entity	name_core
+S1-746273151	S3-30172704	us	Pediatric Dental Physicians Inc	Pediatric Dental Physicians Co	53 Laroche Lane, Hebron, ME	108 Babson Street, Boston, Massachusetts	Same Core Name, Different Entity	name_core
+S1-746273151	S3-862387078	us	Pediatric Dental Physicians Inc	Pediatric  Dental Physicians	53 Laroche Lane, Hebron, ME	5431 Louisiana Ave, Crystal, Minnesota	Same Core Name, Different Entity	name_core
+S1-746273151	S3-73184688	us	Pediatric Dental Physicians Inc	Pediatric Dental Physicians CO	53 Laroche Lane, Hebron, ME	636 Slocumb St, PO Box 9354, Goldsboro, North Carolina	Same Core Name, Different Entity	name_core
+S1-746273151	S2-531415680	us	Pediatric Dental Physicians Inc	Pediatric Dentistry Care Ínc. | www.pediatric.com	53 Laroche Lane, Hebron, ME	GREENFIELD, MA, 53 DEVENS STREET	Same House Number, Different Entity	house_name
+S1-746273151	S2-240786100	us	Pediatric Dental Physicians Inc	PEDIATRIC DENTAL PHYSICOBAFS LLC	53 Laroche Lane, Hebron, ME	#53 JEFFREY AVE, HOLILSTON, MA	Same House Number, Different Entity	house_name
+S1-21084577	S2-997578786	us	Harbor Alliance	Harbor Alliance	45 Goff Street, Corning, NY	1211 HUNTLY PL, N/A, FAIRFAX COUNTY, VA	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-21084577	S2-369967914	us	Harbor Alliance	harbor alliance	45 Goff Street, Corning, NY	250 TOMAHAWK RD, APACHE JUNCTION, AZ	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-21084577	S2-475143453	us	Harbor Alliance	HARBOR  ALLIANCE	45 Goff Street, Corning, NY	433 18ST SAINT, ROCHESTER, IN	Same Name, Different Entity	exact_name,name_core
+S1-21084577	S2-124299928	us	Harbor Alliance	HARBOR ALLIANCE [LLC]	45 Goff Street, Corning, NY	727 WILSON AVENUE, JOHNSON CITY, TN	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-804300777	S2-844320521	india	Swastik Hospitality Private Limited	Swastik Hospitality Private  Limited	S No 268 Swami Samarth Nagar Ph-I Flat- 15 Building-D/Ii Chichwad, Pune, Maharashtra	C/O SUBHRA BANDYOPADHYAY, FATAKGORA SUKSANATANTALA, ABHOY PATULI LANE, CHINSURAH - MAGRA, পশ্চিমবঙ্গ	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-804300777	S3-795455698	india	Swastik Hospitality Private Limited	Swastik Hospitality Pvt Ltd	S No 268 Swami Samarth Nagar Ph-I Flat- 15 Building-D/Ii Chichwad, Pune, Maharashtra	No 76 C/o Choudhury Mharana, Kukudakhandi, Ganjam, OD	Same Core Name, Different Entity	char_3gram_k10,name_core
+S1-8092452	S2-180932287	us	Urban Nails!	Urban Nails	1262 Grandstaff Avenue, Lancaster, OH	7495 SULTANA AVENUE, FONTANA, CA	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-8092452	S3-551271002	us	Urban Nails!	Urban Nails	1262 Grandstaff Avenue, Lancaster, OH	Wilson Pike, Brentwood, Tennessee	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-8092452	S3-440758084	us	Urban Nails!	Urban  Nails	1262 Grandstaff Avenue, Lancaster, OH	2432 Berryville Pike, Unit UNIT 145, Winchester CITY, Virginia	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-8092452	S2-530638170	us	Urban Nails!	Urban Nails Co	1262 Grandstaff Avenue, Lancaster, OH	0292 800, PAAYSON, UT	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-8092452	S2-889558797	us	Urban Nails!	Urban  Nails Corp	1262 Grandstaff Avenue, Lancaster, OH	OR, 1246  71ST AVENUE, PORTLAND	Same Core Name, Different Entity	char_3gram_k10,name_core
+S1-8092452	S2-743855755	us	Urban Nails!	Urban Nails [Ltd]	1262 Grandstaff Avenue, Lancaster, OH	4 LNVALE LN, AMESBURY, MA	Same Core Name, Different Entity	char_3gram_k10,name_core
+S1-111673633	S2-279776099	india	Anand Projects Private Limited	Anand Projects Private Limited	H No.1-1-188/C3, Jj Nagar, Opp Govt Junior College, Suryapet, Nalgonda, Telangana	Gujarat, 3014-3015, GIDC, PHASE--3	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-111673633	S3-63757263	india	Anand Projects Private Limited	Anand Projects  Private Limited	H No.1-1-188/C3, Jj Nagar, Opp Govt Junior College, Suryapet, Nalgonda, Telangana	Plo No 22, Serve No.485/2, Vishwakarma Bhavan Trimbak Road, Near Papaya Nursery, Satpur, Nashik, महाराष्ट्र	Same Name, Different Entity	exact_name,name_core
+S1-111673633	S2-899694348	india	Anand Projects Private Limited	Anand Projects	H No.1-1-188/C3, Jj Nagar, Opp Govt Junior College, Suryapet, Nalgonda, Telangana	NO 15/67 A, KMARAJAPURAM WEST, KARUR, Tamil Nadu	Same Core Name, Different Entity	name_core
+S1-111673633	S3-476345890	india	Anand Projects Private Limited	Anand Projects Private	H No.1-1-188/C3, Jj Nagar, Opp Govt Junior College, Suryapet, Nalgonda, Telangana	Plo No 22, Nashik, MH	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-111673633	S3-292840018	india	Anand Projects Private Limited	Anand Projects (Private)	H No.1-1-188/C3, Jj Nagar, Opp Govt Junior College, Suryapet, Nalgonda, Telangana	Floor, Mumbai City, महाराष्ट्र	Same Core Name, Different Entity	char_3gram_k10,name_core
+S1-740254254	S2-195865543	us	Pediatric Prairie Physicians, LLC	Pediatric  Prairie Physicians, LLC	Salem, IL, 1009 Trenary Avenue	22919 14ND PL, BOTHELL, WA	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-740254254	S2-823182343	us	Pediatric Prairie Physicians, LLC	VI Fcfsd of Frankfort Prairie	Salem, IL, 1009 Trenary Avenue	1009 Kelley Road, FRANKFORT, IN	Same House Number, Different Entity	rare_token
+S1-988516196	S2-452914600	us	Bright Pub!	Bright Pub	1455 Thompson Road, Woodburn, OR	INDIANAPOLIS, 435 MISSION DR, IN	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-988516196	S2-100583077	us	Bright Pub!	Bright Pub!	1455 Thompson Road, Woodburn, OR	1806  1ST ST, GREENVILLE, NC	Same Name, Different Entity	exact_name,name_core
+S1-988516196	S3-194493515	us	Bright Pub!	Bright Pub	1455 Thompson Road, Woodburn, OR	4602 Eighth St, Lubbock Township, Texas	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-988516196	S3-683387680	us	Bright Pub!	Bright  Pub	1455 Thompson Road, Woodburn, OR	58 Sterling Street, PO Box 1719, Hartford, Connecticut	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-988516196	S3-727270259	us	Bright Pub!	bright (pub)	1455 Thompson Road, Woodburn, OR	Birmingham, Alabama, 212 Ledge Circle	Same Name, Different Entity	exact_name,name_core
+S1-988516196	S2-165535019	us	Bright Pub!	Bright Pub  Inc	1455 Thompson Road, Woodburn, OR	6774 KESWICK DR, TX, DALLAS	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-988516196	S2-914030116	us	Bright Pub!	BRIGHT PUB LTD	1455 Thompson Road, Woodburn, OR	153 HIGH STREET, PORTLAND TOWNSHIIP, ME	Same Core Name, Different Entity	name_core
+S1-612217752	S2-252517547	us	Zediis Platinum Independence LLC	zediis platinum independence llc	884 Pinnacle Hill Road, Kingston Springs, TN	807 LEMA AVE, SALINA, KS	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-498738124	S2-511725487	us	Primary Care Medicine	Primary Care  Medicine	1509 Primrose Lane, Cary, NC	WA, POULSBO, MT WALKER DRIVE	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-498738124	S2-407175475	us	Primary Care Medicine	Primary Care Medicine	1509 Primrose Lane, Cary, NC	604. 77 SUNSHINE STRIP, HARLINGEN, TX	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-498738124	S2-31948478	us	Primary Care Medicine	Primary Care Medicine	1509 Primrose Lane, Cary, NC		Same Name, Different Entity	exact_name,name_core
+S1-498738124	S2-380155329	us	Primary Care Medicine	Primary Care Medicine	1509 Primrose Lane, Cary, NC	7021 ALABONSON RD, HOUSTON, TX	Same Name, Different Entity	exact_name,name_core
+S1-498738124	S2-128366430	us	Primary Care Medicine	Primary Care Medicine	1509 Primrose Lane, Cary, NC	191 COUNTY ROAD 417, GOLDHWAITE, TX	Same Name, Different Entity	exact_name,name_core
+S1-498738124	S2-372446484	us	Primary Care Medicine	Primary Care Medicine	1509 Primrose Lane, Cary, NC	TN, 294 ILLINOIS AVE, OA RIDGE CITY	Same Name, Different Entity	exact_name,name_core
+S1-498738124	S2-370788130	us	Primary Care Medicine	PRIMARY CARE MEDICINE	1509 Primrose Lane, Cary, NC	40 BROADWAY STREET, NEWHAVEN CITY, IN	Same Name, Different Entity	exact_name,name_core
+S1-498738124	S3-600836290	us	Primary Care Medicine	Primary Care Medicine	1509 Primrose Lane, Cary, NC	2933 25st Street, Chicago CITY, Illinois	Same Name, Different Entity	exact_name,name_core
+S1-498738124	S3-180831736	us	Primary Care Medicine	Primary Care Medicine	1509 Primrose Lane, Cary, NC	Poulsbo, 18063 Mt Walker Dr, Washington	Same Name, Different Entity	exact_name,name_core
+S1-498738124	S3-692955082	us	Primary Care Medicine	Primary Care (Medicine,)	1509 Primrose Lane, Cary, NC	1347 Marigold Drive, Independence, Oregon	Same Name, Different Entity	exact_name,name_core
+S1-498738124	S3-378910597	us	Primary Care Medicine	Primary  Care-Medicine	1509 Primrose Lane, Cary, NC	115 Twelfth Ave, Durant, Oklahoma	Same Name, Different Entity	exact_name,name_core
+S1-498738124	S2-398456093	us	Primary Care Medicine	Primary Care Medicine Corp	1509 Primrose Lane, Cary, NC	856 AMERICAN LEGION HWY, ROSLINDALE, MA	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-498738124	S2-516392039	us	Primary Care Medicine	Primary Care Medicine Llc	1509 Primrose Lane, Cary, NC	341 TERRA SPRINGS CIRCLE, VOLO, IL	Same Core Name, Different Entity	name_core
+S1-498738124	S2-771869698	us	Primary Care Medicine	Primary Care Medicine LLC	1509 Primrose Lane, Cary, NC	16810 34TH WAY, VANCOUVER, WA	Same Core Name, Different Entity	name_core
+S1-498738124	S2-486279192	us	Primary Care Medicine	PRIMARY CARE MEDICINE INC	1509 Primrose Lane, Cary, NC	TX, 191 COUNYT ROAD 417, GOLDHWAITE	Same Core Name, Different Entity	name_core
+S1-498738124	S2-388628918	us	Primary Care Medicine	Primary Care Medicine Inc	1509 Primrose Lane, Cary, NC	31  WATERFORD PL, CHELMSFORD, MA	Same Core Name, Different Entity	name_core
+S1-498738124	S2-147375774	us	Primary Care Medicine	Primary Care Medicine Ltd	1509 Primrose Lane, Cary, NC	1791. GALLEON BOULEVARD, HILLIARD, OH	Same Core Name, Different Entity	name_core
+S1-498738124	S2-393369185	us	Primary Care Medicine	Primary Care Medicine Co	1509 Primrose Lane, Cary, NC	0116 LAKE ST, BATAVIA, IL	Same Core Name, Different Entity	name_core
+S1-498738124	S2-881814328	us	Primary Care Medicine	Primary Care-Medicine Inc	1509 Primrose Lane, Cary, NC		Same Core Name, Different Entity	name_core
+S1-498738124	S3-226695521	us	Primary Care Medicine	Primary Care Medicine [LLC]	1509 Primrose Lane, Cary, NC	29 Cross Street, Medfield, Massachusetts	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-498738124	S3-31672798	us	Primary Care Medicine	Primary-Care Medicine Inc	1509 Primrose Lane, Cary, NC	244 N Ridge Run, Manchester, Vermont	Same Core Name, Different Entity	name_core
+S1-498738124	S3-755824109	us	Primary Care Medicine	Primary Care Medicine (Inc)	1509 Primrose Lane, Cary, NC	2- Rosehaven Street, Stafford, Virginia	Same Core Name, Different Entity	name_core
+S1-498738124	S3-43476415	us	Primary Care Medicine	Primary Care Medicine, LLC	1509 Primrose Lane, Cary, NC	1242 Frances Pl, Catonsville, Maryland	Same Core Name, Different Entity	name_core
+S1-498738124	S3-532450054	us	Primary Care Medicine	Primary Care Medicine Inc.	1509 Primrose Lane, Cary, NC	Mattapan, Massachusetts, Unit C9, 51. Fairlawn Ave	Same Core Name, Different Entity	name_core
+S1-498738124	S3-632679469	us	Primary Care Medicine	Primary Care Medicine Incorporated	1509 Primrose Lane, Cary, NC	Washington, View Ridge Dr, Bellignham	Same Core Name, Different Entity	name_core
+S1-498738124	S3-563032519	us	Primary Care Medicine	Primary Care Medicine Ltd	1509 Primrose Lane, Cary, NC	Middletown, 6402 Hughes Glen Ct, Ohio	Same Core Name, Different Entity	name_core
+S1-498738124	S3-353629276	us	Primary Care Medicine	Primary Care Medicine Llc	1509 Primrose Lane, Cary, NC	4910 Long Pier Ln, Unit 308, Raleigh, North Carolina	Same Core Name, Different Entity	name_core
+S1-498738124	S3-341498008	us	Primary Care Medicine	Primary CARE Medicine LLC	1509 Primrose Lane, Cary, NC	13303 Mission Avenue, Unit 192, Sppokane, Washington	Same Core Name, Different Entity	name_core
+S1-748364403	S2-535588891	us	Eye Group	Eye Group	802 Buffalo Street, Unit 8, Johnson City, TN	878 CODY BRANCH, ROBBINSVILLE, NC	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-748364403	S2-850544105	us	Eye Group	EYE (GROUP)	802 Buffalo Street, Unit 8, Johnson City, TN	18 WESTVIEW LN, BRUNSWICK, ME	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-748364403	S2-405768279	us	Eye Group	Eye Group	802 Buffalo Street, Unit 8, Johnson City, TN	Benttree Drive, OWENSBORO, KY	Same Name, Different Entity	exact_name,name_core
+S1-748364403	S2-967484529	us	Eye Group	Eye Group	802 Buffalo Street, Unit 8, Johnson City, TN	610 MAIN STREET, OFALLON, MO	Same Name, Different Entity	exact_name,name_core
+S1-748364403	S2-911609949	us	Eye Group	Eye Group	802 Buffalo Street, Unit 8, Johnson City, TN	08 BRIAR RIDGE, FESTUS, MO	Same Name, Different Entity	exact_name,name_core
+S1-748364403	S2-542077103	us	Eye Group	Eye Group	802 Buffalo Street, Unit 8, Johnson City, TN	21577 PLEASANT ROAD, IL, RUSHVILLE	Same Name, Different Entity	exact_name,name_core
+S1-748364403	S3-882422437	us	Eye Group	Eye Group	802 Buffalo Street, Unit 8, Johnson City, TN	950, Toledo, Illinois	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-748364403	S3-70512447	us	Eye Group	Eye Group	802 Buffalo Street, Unit 8, Johnson City, TN	324 Houlton Road, Baileyville, Maine	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-748364403	S3-208626844	us	Eye Group	Eye Group	802 Buffalo Street, Unit 8, Johnson City, TN	1164 Madison Ave, Jayton, Texas	Same Name, Different Entity	exact_name,name_core
+S1-748364403	S3-584319290	us	Eye Group	Eye Group	802 Buffalo Street, Unit 8, Johnson City, TN	1211 Ridge Trace Dr, # 104, Raaleigh, North Carolina	Same Name, Different Entity	exact_name,name_core
+S1-748364403	S3-836456487	us	Eye Group	Eye Group	802 Buffalo Street, Unit 8, Johnson City, TN	New York, Esperance, 1485 Eaton Corners Road, PMB 1895	Same Name, Different Entity	exact_name,name_core
+S1-748364403	S3-955012708	us	Eye Group	Eye Group	802 Buffalo Street, Unit 8, Johnson City, TN	539. Carla Ct, Salem, Oregon	Same Name, Different Entity	exact_name,name_core
+S1-748364403	S3-523288868	us	Eye Group	Eye  Group	802 Buffalo Street, Unit 8, Johnson City, TN	2707 Hawken Saint, # Apartment 23, Biismarck, North Dakota	Same Name, Different Entity	exact_name,name_core
+S1-748364403	S3-303097441	us	Eye Group	eye group	802 Buffalo Street, Unit 8, Johnson City, TN	19110-D Creekfield Lake Ct, Cypress, Texas	Same Name, Different Entity	exact_name,name_core
+S1-748364403	S3-383874550	us	Eye Group	Eye Group	802 Buffalo Street, Unit 8, Johnson City, TN	Unit 1042, 1351- Pleasant Drive, Arizona, Chandler	Same Name, Different Entity	exact_name,name_core
+S1-748364403	S3-929644624	us	Eye Group	Eye  Group	802 Buffalo Street, Unit 8, Johnson City, TN	82-86 Georgia Road, Lake Waccamaw, North Carolina	Same Name, Different Entity	exact_name,name_core
+S1-748364403	S2-307451605	us	Eye Group	Eye Group Inc	802 Buffalo Street, Unit 8, Johnson City, TN	11163 JORDAN ROAD, CATO, NY	Same Core Name, Different Entity	name_core
+S1-748364403	S3-622057031	us	Eye Group	Eye Group (Inc)	802 Buffalo Street, Unit 8, Johnson City, TN	Reedy Brook Ln, Columbia, Maryland	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-748364403	S3-158826211	us	Eye Group	Eye  Group Inc	802 Buffalo Street, Unit 8, Johnson City, TN	017 Ridgewood Ln, Johnson City, Tennessee	Same Core Name, Different Entity	name_core
+S1-616755144	S2-943291184	us	Keystone LLC	Keystone LLC	72 R M Way, Mead, OK	7559 BREEZY POINT RD, WALKER, MN	Same Name, Different Entity	exact_name,name_core
+S1-616755144	S3-328330417	us	Keystone LLC	Keystone [LLC]	72 R M Way, Mead, OK	0300 Campbell St, Gore, Oklahoma	Same Name, Different Entity	exact_name,name_core
+S1-616755144	S3-113117616	us	Keystone LLC	Keystone, (LLC)	72 R M Way, Mead, OK	62435 21st St, Phoenix, Arizona	Same Name, Different Entity	exact_name,name_core
+S1-616755144	S3-306944624	us	Keystone LLC	Keystone LLC	72 R M Way, Mead, OK	1216 Mount Powell, Ken Caryl, Colorado	Same Name, Different Entity	exact_name,name_core
+S1-616755144	S2-452973108	us	Keystone LLC	Keystone  Corp	72 R M Way, Mead, OK	2700 TRIMMIER ROAD, KILLEEN, TX	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-616755144	S2-378579994	us	Keystone LLC	Keystone Incorporated	72 R M Way, Mead, OK	WA, 191D FOXFIELD DR, PORT TOWNSEND	Same Core Name, Different Entity	name_core
+S1-616755144	S2-635209951	us	Keystone LLC	Keystone [Co]	72 R M Way, Mead, OK	2717 JACQUELINE DRIVE, WILMINGTON, DE	Same Core Name, Different Entity	name_core
+S1-616755144	S2-36484827	us	Keystone LLC	Keystone	72 R M Way, Mead, OK	1170 MAIN ST, N/A, MILLIS, MA	Same Core Name, Different Entity	name_core
+S1-616755144	S2-843506643	us	Keystone LLC	KEYSTONE (CORP)	72 R M Way, Mead, OK	4685 SHADYBROOK DRIVE, SYKESVILLE, MD	Same Core Name, Different Entity	name_core
+S1-616755144	S2-601990798	us	Keystone LLC	Keystone Inc.	72 R M Way, Mead, OK	##94 RAYMOND ROAD, GILFORD, CT	Same Core Name, Different Entity	name_core
+S1-616755144	S2-40508521	us	Keystone LLC	Keystone	72 R M Way, Mead, OK	123 OLD MILL DR, CAMP HILL, PA	Same Core Name, Different Entity	name_core
+S1-616755144	S2-467171117	us	Keystone LLC	Keystone Inc	72 R M Way, Mead, OK	217 EASTONW DR, COLUMBUS GROVE, OH	Same Core Name, Different Entity	name_core
+S1-616755144	S2-512169185	us	Keystone LLC	Keystone	72 R M Way, Mead, OK	611A JULIETTE AVENUE, MANHATTAN, KS	Same Core Name, Different Entity	name_core
+S1-616755144	S2-617462704	us	Keystone LLC	Keystone	72 R M Way, Mead, OK	8810 1/2 BRILEY DRIVE, DALLAS, TX	Same Core Name, Different Entity	name_core
+S1-616755144	S3-910070615	us	Keystone LLC	keystone	72 R M Way, Mead, OK	320. Meadowridge Cir, Texarkana, Arkansas	Same Core Name, Different Entity	name_core,rare_token
+S1-616755144	S3-547225527	us	Keystone LLC	Keystone Corp	72 R M Way, Mead, OK	3217 Terry Saint, Ft Worth, Texas	Same Core Name, Different Entity	name_core
+S1-616755144	S3-320917794	us	Keystone LLC	Keystone Ltd	72 R M Way, Mead, OK	1144 Ideal Dr, Powell, Tennessee	Same Core Name, Different Entity	name_core
+S1-616755144	S3-167258027	us	Keystone LLC	Keystone, Corp	72 R M Way, Mead, OK	9 Mull Berry Drive, Gales Ferry, Connecticut	Same Core Name, Different Entity	name_core
+S1-616755144	S3-285420651	us	Keystone LLC	Keystone	72 R M Way, Mead, OK	1827 Briggs Road, Benton, NY	Same Core Name, Different Entity	name_core
+S1-616755144	S3-547399709	us	Keystone LLC	Keystone	72 R M Way, Mead, OK	2335 Bent Tree Road, Shawnee, OK	Same Core Name, Different Entity	name_core
+S1-616755144	S3-757092402	us	Keystone LLC	Keystone	72 R M Way, Mead, OK	Greenville, # 3, 801 Peed Dr, North Carolina	Same Core Name, Different Entity	name_core
+S1-616755144	S3-883387283	us	Keystone LLC	Keystone	72 R M Way, Mead, OK	OH, 2693 Market Street, Akron	Same Core Name, Different Entity	name_core
+S1-616755144	S3-878641447	us	Keystone LLC	Keystone	72 R M Way, Mead, OK	11535b Chesswood Drive, Houston, Texas	Same Core Name, Different Entity	name_core
+S1-616755144	S3-103624930	us	Keystone LLC	keystone inc	72 R M Way, Mead, OK	01936 Main Street, N/A, Mesa, Arizona	Same Core Name, Different Entity	name_core
+S1-616755144	S3-838445425	us	Keystone LLC	Keystone	72 R M Way, Mead, OK	12521 44th Drive, Yuma, AZ	Same Core Name, Different Entity	name_core
+S1-616755144	S3-579089606	us	Keystone LLC	Keystone  Inc	72 R M Way, Mead, OK	Farrand Road, Sherman, Illinois	Same Core Name, Different Entity	name_core
+S1-616755144	S3-732756903	us	Keystone LLC	Keystone	72 R M Way, Mead, OK	##1805 Piper Ln, # 104, Centerville, Ohio	Same Core Name, Different Entity	name_core
+S1-616755144	S3-643442091	us	Keystone LLC	Keystone	72 R M Way, Mead, OK	131. Whitbeck Rd, Coeymans Hollow, New York	Same Core Name, Different Entity	name_core
+S1-356319224	S2-293340145	us	Womens Health Care	Womens Health Care	32 Lexington Avenue, Unit 1, Somerville, MA	PIGEON LANE, SHINGLETOWN, CA	Same Name, Different Entity	exact_name,name_core
+S1-356319224	S2-435170686	us	Womens Health Care	WOMENS HEALTH CARE	32 Lexington Avenue, Unit 1, Somerville, MA	730 CARLISLE STREET, MORGGANFIELD, KY	Same Name, Different Entity	exact_name,name_core
+S1-356319224	S2-189452226	us	Womens Health Care	Womens Health Care	32 Lexington Avenue, Unit 1, Somerville, MA	19012 GEROGE NORRIS, MANOOR CDP, TX	Same Name, Different Entity	exact_name,name_core
+S1-356319224	S3-156746749	us	Womens Health Care	Womens Health (Care)	32 Lexington Avenue, Unit 1, Somerville, MA	41 Rudloff Road, Whitney, Nebraska	Same Name, Different Entity	exact_name,name_core
+S1-356319224	S3-778518322	us	Womens Health Care	Womens Health Care	32 Lexington Avenue, Unit 1, Somerville, MA	7128 Holmfield Road, Fayetteville, North Carolina	Same Name, Different Entity	exact_name,name_core
+S1-356319224	S2-458860562	us	Womens Health Care	Womens Health Care LLC	32 Lexington Avenue, Unit 1, Somerville, MA	KS, TOPEKA, 1201 FILLMORE SAINT	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-356319224	S2-362485819	us	Womens Health Care	Womens Health Care Co	32 Lexington Avenue, Unit 1, Somerville, MA	13273 GIBRALTER RD, ANACORTES, WA	Same Core Name, Different Entity	name_core
+S1-356319224	S2-863007999	us	Womens Health Care	Womens Health Care Co	32 Lexington Avenue, Unit 1, Somerville, MA	731 CARLISLE ST, MORGANFIELD, KY	Same Core Name, Different Entity	name_core
+S1-356319224	S2-51732597	us	Womens Health Care	Womens Health  Care Inc	32 Lexington Avenue, Unit 1, Somerville, MA	2300 UNIVRESITY AVE, LITTLE ROCK CITY, AR	Same Core Name, Different Entity	name_core
+S1-356319224	S2-7726673	us	Womens Health Care	Womens Health Care [Corp]	32 Lexington Avenue, Unit 1, Somerville, MA	1707 MONTROSE DRIVE, FORT WORTH, TX	Same Core Name, Different Entity	name_core
+S1-356319224	S2-873061011	us	Womens Health Care	WOMENS HEALTH CARE CO	32 Lexington Avenue, Unit 1, Somerville, MA	23 OLD US RTE 33, SHADE, OH	Same Core Name, Different Entity	name_core
+S1-356319224	S2-273755456	us	Womens Health Care	Womens Health Care Corporation	32 Lexington Avenue, Unit 1, Somerville, MA	16805 138RD AVE, PUYALLUP, WA	Same Core Name, Different Entity	name_core
+S1-356319224	S2-100604092	us	Womens Health Care	Womens Health Care [Inc]	32 Lexington Avenue, Unit 1, Somerville, MA	434 BAY ST, DUNN, NC	Same Core Name, Different Entity	name_core
+S1-356319224	S2-79176143	us	Womens Health Care	WOMENS HEALTH CARE INC	32 Lexington Avenue, Unit 1, Somerville, MA	6 CHASE AVENUE, WATERVILLE, ME	Same Core Name, Different Entity	name_core
+S1-356319224	S3-873537915	us	Womens Health Care	Womens Health Care Inc.	32 Lexington Avenue, Unit 1, Somerville, MA	5859 Skinner Rd, <NULL>, Illinois, Stillman Valley	Same Core Name, Different Entity	name_core
+S1-356319224	S3-810914478	us	Womens Health Care	Womens Health Care LLC	32 Lexington Avenue, Unit 1, Somerville, MA	13821 Vacek St, Santa Fe, Texas	Same Core Name, Different Entity	name_core
+S1-356319224	S2-614091808	us	Womens Health Care	Womens Health Care Care Ltd	32 Lexington Avenue, Unit 1, Somerville, MA	32 PRINCETON BLVD, BUFFFALO TOWNSHIP, NY	Same House Number, Different Entity	house_name
+S1-915022305	S2-671955060	us	Cozy Pub	Cozy Pub	3616 Peterson Avenue, Chicago, IL	16282 280ND AVENUE E, <NULL>, COWETA DP, OK	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-915022305	S2-992109894	us	Cozy Pub	COZY  PUB	3616 Peterson Avenue, Chicago, IL	21891 Alyssa Road, AZ, QUEEN CREEK	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-915022305	S2-329607542	us	Cozy Pub	COZY  PUB!	3616 Peterson Avenue, Chicago, IL	WALNUT ST, ELLENSBURG, WA	Same Name, Different Entity	exact_name,name_core
+S1-915022305	S3-963236376	us	Cozy Pub	Cozy Pub	3616 Peterson Avenue, Chicago, IL	2001 Washington Ave SE, Cedar Rapids, Iowa	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-915022305	S3-26503814	us	Cozy Pub	Cozy Pub	3616 Peterson Avenue, Chicago, IL	7038 Cedarbrook Dr, Charlotte Township, North Carolina	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-915022305	S2-508374208	us	Cozy Pub	Cozy Pub Inc	3616 Peterson Avenue, Chicago, IL	2684 700, PINE VILLAGE, IN	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-915022305	S2-829980962	us	Cozy Pub	Cozy Pub [Corp]	3616 Peterson Avenue, Chicago, IL	426 ASHLAND ST, N .ADAMS, MA	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-915022305	S2-731429646	us	Cozy Pub	Cozy Pub Corporation	3616 Peterson Avenue, Chicago, IL	7501 HICKORY HILLS CT, NASHVILLE, TN	Same Core Name, Different Entity	char_3gram_k10,name_core
+S1-915022305	S3-177412408	us	Cozy Pub	Cozy Pub Inc.	3616 Peterson Avenue, Chicago, IL	411-413 Fourth Ave, Kure Beach, North Carolina	Same Core Name, Different Entity	char_3gram_k10,name_core
+S1-579617619	S2-605197961	us	Cardiology Center LLC	Cardiology Center LLC	60 Queen Street, Hempstead, NY	640 1/2 PLYMOUTH AVE, BUFFALO, NY	Same Name, Different Entity	exact_name,name_core
+S1-579617619	S2-721316408	us	Cardiology Center LLC	CARDIOLOGY CENTER LLC	60 Queen Street, Hempstead, NY	1609 Fincastle Turnpike, TAZEWELL TOWN, VA	Same Name, Different Entity	exact_name,name_core
+S1-579617619	S2-816672734	us	Cardiology Center LLC	Cardiology Center-LLC	60 Queen Street, Hempstead, NY	184 SHOP LOPO, CHEROKEE, AL	Same Name, Different Entity	exact_name,name_core
+S1-579617619	S3-9011027	us	Cardiology Center LLC	Cardiology Center LLC	60 Queen Street, Hempstead, NY	450 K Saint, # 818, Washingtoncity, District of Columbia	Same Name, Different Entity	exact_name,name_core
+S1-579617619	S3-17887971	us	Cardiology Center LLC	Cardiology Center LLC	60 Queen Street, Hempstead, NY	7103 Meadow Gren Ter, N/A, Hyattsville, Maryland	Same Name, Different Entity	exact_name,name_core
+S1-579617619	S2-333197009	us	Cardiology Center LLC	Cardiology Center	60 Queen Street, Hempstead, NY	525 57TH AVE, MINNEAPOLIS, MN	Same Core Name, Different Entity	name_core
+S1-579617619	S2-875059068	us	Cardiology Center LLC	Cardiology  Center	60 Queen Street, Hempstead, NY	9909 BUCKINGHAM DR, FAIRDLE, KY	Same Core Name, Different Entity	name_core
+S1-579617619	S2-27405999	us	Cardiology Center LLC	Cardiology Center	60 Queen Street, Hempstead, NY	21273 263RD LANE, null, BUCKEYE, AZ	Same Core Name, Different Entity	name_core
+S1-579617619	S2-967494501	us	Cardiology Center LLC	Cardiology Center	60 Queen Street, Hempstead, NY	3604D COLORADO AVENUE, FLORENCE, AZ	Same Core Name, Different Entity	name_core
+S1-579617619	S2-159056118	us	Cardiology Center LLC	Cardiology Center Inc.	60 Queen Street, Hempstead, NY	3750 1/2 RALPH AVENUE, OWENSBORO, KY	Same Core Name, Different Entity	name_core
+S1-579617619	S2-85196223	us	Cardiology Center LLC	Cardiology Center	60 Queen Street, Hempstead, NY	HARRINGTON FIELD DRIVE, HOCKLEY, TX	Same Core Name, Different Entity	name_core
+S1-579617619	S2-1893503	us	Cardiology Center LLC	Cardiology Center [Inc.]	60 Queen Street, Hempstead, NY	575 BERRYVILLE ROAD, JONESBORO, IL	Same Core Name, Different Entity	name_core
+S1-579617619	S2-382231525	us	Cardiology Center LLC	CARDIOLOGY-CENTER, CORP.	60 Queen Street, Hempstead, NY	27. ASHDALE CIR, AMHERST, NY	Same Core Name, Different Entity	name_core
+S1-579617619	S3-630555077	us	Cardiology Center LLC	Cardiology Center	60 Queen Street, Hempstead, NY	364 Walker Dr, Canandaigua, New York	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-579617619	S3-905313869	us	Cardiology Center LLC	Cardiology Center  Inc.	60 Queen Street, Hempstead, NY	26443 1/2 Clark Road, Florala, Alabama	Same Core Name, Different Entity	char_3gram_k10,name_core
+S1-579617619	S3-785348211	us	Cardiology Center LLC	Cardiology Center Inc.	60 Queen Street, Hempstead, NY	5899 22, Gillett CITY, Wisconsin	Same Core Name, Different Entity	name_core
+S1-579617619	S3-24664042	us	Cardiology Center LLC	Cardiology (Center)	60 Queen Street, Hempstead, NY	Dove Valley, 8176 Memphis Way, Colorado	Same Core Name, Different Entity	name_core
+S1-579617619	S3-438023361	us	Cardiology Center LLC	Cardiology  Center	60 Queen Street, Hempstead, NY	575 Berryville Rd, Jonesboro, Illinois	Same Core Name, Different Entity	name_core
+S1-579617619	S3-300742445	us	Cardiology Center LLC	Cardiology Center [Corp]	60 Queen Street, Hempstead, NY	643-645 Plymouth Avenue, Buffalo, New York	Same Core Name, Different Entity	name_core
+S1-579617619	S3-520830911	us	Cardiology Center LLC	Cardiology Center INC	60 Queen Street, Hempstead, NY	935 Cahal Ave, Nashville, Tennessee	Same Core Name, Different Entity	name_core
+S1-579617619	S3-767935981	us	Cardiology Center LLC	Cardiology  Center	60 Queen Street, Hempstead, NY	110 81nd Street, Unit 112, Ocean City, Maryland	Same Core Name, Different Entity	name_core
+S1-881770296	S2-497274738	us	Pediatric Dentistry Clinic, Inc	Pediatric  Dentistry Clinic Inc	4 Snowbell Lane, Worcester, MA	005526 KNOB ROAD, NASHVILLE, TN	Same Name, Different Entity	exact_name,name_core
+S1-881770296	S2-223728135	us	Pediatric Dentistry Clinic, Inc	PEDIATRIC DENTISTRY CLINIC (INC)	4 Snowbell Lane, Worcester, MA	#169 DELAWARE AVENUE, KINGSTON, NY	Same Name, Different Entity	exact_name,name_core
+S1-881770296	S3-985557124	us	Pediatric Dentistry Clinic, Inc	Pediatric Dentistry Clinic Inc.	4 Snowbell Lane, Worcester, MA	8311 De Ventura, # APT 1115, Scottsdale, Arizona	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-881770296	S3-535336837	us	Pediatric Dentistry Clinic, Inc	Pediatric-Dentistry Clinic Inc	4 Snowbell Lane, Worcester, MA	535B Center Street, Ludlow, Massachusetts	Same Name, Different Entity	exact_name,name_core
+S1-881770296	S2-779023955	us	Pediatric Dentistry Clinic, Inc	PEDIATRIC DENTISTRY CLINIC	4 Snowbell Lane, Worcester, MA	BALTIMORE, 202 HARMISON STREET, MD	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-881770296	S2-231798424	us	Pediatric Dentistry Clinic, Inc	Pediatric  Dentistry Clinic	4 Snowbell Lane, Worcester, MA	3025 145TH CT, WI, CITY OF NEW BERLIN	Same Core Name, Different Entity	char_3gram_k10,name_core
+S1-881770296	S2-606858923	us	Pediatric Dentistry Clinic, Inc	Pediatric  Dentistry Clinic Co	4 Snowbell Lane, Worcester, MA	2532- JENNIFER DRIVE, EDEN CDP, NY	Same Core Name, Different Entity	name_core
+S1-881770296	S2-879585940	us	Pediatric Dentistry Clinic, Inc	PEDIATRIC DENTISTRY CLINIC	4 Snowbell Lane, Worcester, MA	17025  OLD SCENIC HWY, LA, ZACHARY	Same Core Name, Different Entity	name_core
+S1-881770296	S2-238283948	us	Pediatric Dentistry Clinic, Inc	PEDIATRIC DENTISTRY CLINIC	4 Snowbell Lane, Worcester, MA	20995 LYE LANE, ANDERSON, CA	Same Core Name, Different Entity	name_core
+S1-881770296	S2-301667750	us	Pediatric Dentistry Clinic, Inc	pediatric dentistry clinic	4 Snowbell Lane, Worcester, MA	NY, 74 PERRY AVE, CORNING	Same Core Name, Different Entity	name_core
+S1-881770296	S2-853381334	us	Pediatric Dentistry Clinic, Inc	Pediatric Dentistry Clinic Corp	4 Snowbell Lane, Worcester, MA	4515 ERIE AVE, CINCINNATI, OH	Same Core Name, Different Entity	name_core
+S1-881770296	S3-480592795	us	Pediatric Dentistry Clinic, Inc	Pediatric Dentistry Clinic Corp	4 Snowbell Lane, Worcester, MA	142 Seventh St, San Bernardino, California	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-881770296	S3-924365583	us	Pediatric Dentistry Clinic, Inc	Pediatric  Dentistry Clinic	4 Snowbell Lane, Worcester, MA	8 Crabapple Ct, Wappnigers Falls CITY, New York	Same Core Name, Different Entity	name_core
+S1-881770296	S3-169320226	us	Pediatric Dentistry Clinic, Inc	Pediatric Dentistry Clinic	4 Snowbell Lane, Worcester, MA	Illinois, Girard, Center St	Same Core Name, Different Entity	name_core
+S1-881770296	S3-590135925	us	Pediatric Dentistry Clinic, Inc	Pediatric Dentistry-Clinic	4 Snowbell Lane, Worcester, MA	8052 Cedar Point Dr, Newburgh, Indiana	Same Core Name, Different Entity	name_core
+S1-881770296	S3-38028471	us	Pediatric Dentistry Clinic, Inc	Pediatric Dentistry Clinic	4 Snowbell Lane, Worcester, MA	2609 Newberry Street, Fairfield, California	Same Core Name, Different Entity	name_core
+S1-881770296	S2-739863596	us	Pediatric Dentistry Clinic, Inc	PEDIATRIC ASSOCIATES OF	4 Snowbell Lane, Worcester, MA	4. SIGNATURE COURT, ROCWALL, TX	Same House Number, Different Entity	house_name
+S1-881770296	S2-690037415	us	Pediatric Dentistry Clinic, Inc	Pediatric Dentistry	4 Snowbell Lane, Worcester, MA	4 BARTON CT, CLOVIS, NM	Same House Number, Different Entity	house_name
+S1-881770296	S2-341010343	us	Pediatric Dentistry Clinic, Inc	Pediatric Royal Dental Inc	4 Snowbell Lane, Worcester, MA	4 BOMBAY COURT, CANDLER, NC	Same House Number, Different Entity	house_name
+S1-166601186	S2-182687971	us	Pediatric Medicine LLC	Pediatric  Medicine LLC	5022 Goose Neck Road, Northwest, NC	AL, HALE DR, HUNTSVILLE	Same Name, Different Entity	exact_name,name_core
+S1-166601186	S2-915612152	us	Pediatric Medicine LLC	Pediatric Medicine LLC	5022 Goose Neck Road, Northwest, NC	2292 VAUGHN BRIDGE ROAD, HARTSELLE, AL	Same Name, Different Entity	exact_name,name_core
+S1-166601186	S2-615126873	us	Pediatric Medicine LLC	Pediatric Medicine LLC	5022 Goose Neck Road, Northwest, NC	158 VETERANS PKWY, JEFFERSONVILLE, IN	Same Name, Different Entity	exact_name,name_core
+S1-166601186	S2-991285925	us	Pediatric Medicine LLC	Pediatric Medicine-Inc	5022 Goose Neck Road, Northwest, NC	UNION GROVE, 413 1/2 MITCH RD, NC	Same Core Name, Different Entity	char_3gram_k10,name_core
+S1-166601186	S2-691068482	us	Pediatric Medicine LLC	Pediatric Medicine  Incorporated	5022 Goose Neck Road, Northwest, NC	1306 WALNUT STREET, DANVILLE, KY	Same Core Name, Different Entity	name_core
+S1-166601186	S2-786980055	us	Pediatric Medicine LLC	Pediatric Medicine Ltd	5022 Goose Neck Road, Northwest, NC	015 Bell Sprinkle Rd, WEAVERVILLE, NC	Same Core Name, Different Entity	name_core
+S1-166601186	S2-921354746	us	Pediatric Medicine LLC	pediatric medicine	5022 Goose Neck Road, Northwest, NC	930-C MAGNOLIA AVE, ONTARIO, CA	Same Core Name, Different Entity	name_core
+S1-166601186	S2-863616877	us	Pediatric Medicine LLC	Pediatric Medicine Inc	5022 Goose Neck Road, Northwest, NC	26638  MILL CREEK DR, ATHENS, AL	Same Core Name, Different Entity	name_core
+S1-166601186	S2-340780469	us	Pediatric Medicine LLC	Pediatric Medicine	5022 Goose Neck Road, Northwest, NC	5225 NOTTINGHAM DRIVE, EVANSVILLE  CDP, IN	Same Core Name, Different Entity	name_core
+S1-166601186	S2-186664829	us	Pediatric Medicine LLC	Pediatric  Medicine	5022 Goose Neck Road, Northwest, NC	318 RIVER RD, CHESTERTOWN, MD	Same Core Name, Different Entity	name_core
+S1-166601186	S2-412247803	us	Pediatric Medicine LLC	PEDIATRIC [MEDICINE]	5022 Goose Neck Road, Northwest, NC	1360 COUNTY ROAD 6496, DAYTON, TX	Same Core Name, Different Entity	name_core
+S1-166601186	S3-327376554	us	Pediatric Medicine LLC	Pediatric Medicine Co	5022 Goose Neck Road, Northwest, NC	5358 62nd St, # APT 175, Indianapolis, Indiana	Same Core Name, Different Entity	char_3gram_k10,name_core
+S1-166601186	S3-127999234	us	Pediatric Medicine LLC	Pediatric Medicine Corporation	5022 Goose Neck Road, Northwest, NC	4138 Autumn Way, null, Louisville, Kentucky	Same Core Name, Different Entity	name_core
+S1-166601186	S3-450434727	us	Pediatric Medicine LLC	Pediatric  Medicine	5022 Goose Neck Road, Northwest, NC	2001c Harwood Street, Lincoln, Nebraska	Same Core Name, Different Entity	name_core
+S1-166601186	S3-281329324	us	Pediatric Medicine LLC	Pediatric Medicine Inc	5022 Goose Neck Road, Northwest, NC	2852 Willow Glen Ct, Grand Prairie, Texas	Same Core Name, Different Entity	name_core
+S1-166601186	S3-459271532	us	Pediatric Medicine LLC	Pediatric Medicine Co	5022 Goose Neck Road, Northwest, NC	#2855 Willow Glen Ct, Grand Prairrie, Texas	Same Core Name, Different Entity	name_core
+S1-166601186	S3-222882677	us	Pediatric Medicine LLC	pediatric medicine	5022 Goose Neck Road, Northwest, NC	318 River Road, Chestertown, Maryland	Same Core Name, Different Entity	name_core
+S1-166601186	S3-173603756	us	Pediatric Medicine LLC	Pediatric Medicine	5022 Goose Neck Road, Northwest, NC	Oklahoma, Sand Springs, 11450. 51	Same Core Name, Different Entity	name_core
+S1-694085192	S2-254387698	us	Internal Medicine Associates	Internal Medicine  [Associates]	5227 Main Street, Unit 32, Downers Grove, IL	434 HARRIS AVE, RAEFORD, NC	Same Name, Different Entity	exact_name,name_core
+S1-694085192	S2-138749299	us	Internal Medicine Associates	Internal Medicine Associates	5227 Main Street, Unit 32, Downers Grove, IL	11 DEL REY OAKS PL, MONTGOMERY, TX	Same Name, Different Entity	exact_name,name_core
+S1-694085192	S3-38487246	us	Internal Medicine Associates	Internal Medicine Associates	5227 Main Street, Unit 32, Downers Grove, IL	3103 Michigan Ave, Belle, West Virginia	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-694085192	S3-127549954	us	Internal Medicine Associates	Internal Medicine Associates	5227 Main Street, Unit 32, Downers Grove, IL	Fort Dodge, Iowa, 3065-3067 10th Avenue	Same Name, Different Entity	exact_name,name_core
+S1-694085192	S3-489864319	us	Internal Medicine Associates	Internal  Medicine Associates	5227 Main Street, Unit 32, Downers Grove, IL	109-C Duvall St, Marshall, Arkansas	Same Name, Different Entity	exact_name,name_core
+S1-694085192	S3-559032662	us	Internal Medicine Associates	Internal Medicine Associates	5227 Main Street, Unit 32, Downers Grove, IL	146 4th Avenue, Hillsboro, Oregon	Same Name, Different Entity	exact_name,name_core
+S1-694085192	S3-268565198	us	Internal Medicine Associates	Internal Medicine Associates	5227 Main Street, Unit 32, Downers Grove, IL	1580 Prospect St, # APT C7, Elyria, Ohio	Same Name, Different Entity	exact_name,name_core
+S1-694085192	S3-491575190	us	Internal Medicine Associates	Internal Medicine Associates	5227 Main Street, Unit 32, Downers Grove, IL	2929 Potter St, PMB 6196, Lincoln, Nebraska	Same Name, Different Entity	exact_name,name_core
+S1-694085192	S2-97550363	us	Internal Medicine Associates	Internal Medicine Associates Ltd	5227 Main Street, Unit 32, Downers Grove, IL	0926 CHESTER AVENUE, TOPEKA, KS	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-694085192	S2-255462706	us	Internal Medicine Associates	Internal Medicine Associates Corp	5227 Main Street, Unit 32, Downers Grove, IL	BIRDSONG, 00206 STATE HIGHWAY 308 DRIVE, AR	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-694085192	S2-64296283	us	Internal Medicine Associates	Internal Medicine Associates Ltd	5227 Main Street, Unit 32, Downers Grove, IL	4793 CLEVESDALE DRIVE, NULL, CINCINNATI, OH	Same Core Name, Different Entity	name_core
+S1-694085192	S2-457608474	us	Internal Medicine Associates	internal medicine associates inc	5227 Main Street, Unit 32, Downers Grove, IL	1415 10TH ST, MCALESTER, OK	Same Core Name, Different Entity	name_core
+S1-694085192	S3-441825435	us	Internal Medicine Associates	Internal Medicine Associates Corp	5227 Main Street, Unit 32, Downers Grove, IL	832 Jefferson St, Rochester, Indiana	Same Core Name, Different Entity	char_3gram_k10,name_core
+S1-694085192	S3-439928658	us	Internal Medicine Associates	internal medicine associates llc	5227 Main Street, Unit 32, Downers Grove, IL	732 Sandra Lane, Fl 1, Centra Point, Oregon	Same Core Name, Different Entity	name_core
+S1-694085192	S3-693281191	us	Internal Medicine Associates	Internal Medicine-Associates Co	5227 Main Street, Unit 32, Downers Grove, IL	15017 Fayette Blvd, Brookpark, Ohio	Same Core Name, Different Entity	name_core
+S1-694085192	S3-615929568	us	Internal Medicine Associates	Internal Medicine Associates Inc	5227 Main Street, Unit 32, Downers Grove, IL	25029 Becks Ln, Georgetown, Delaware	Same Core Name, Different Entity	name_core
+S1-694085192	S3-120560459	us	Internal Medicine Associates	Internal Medicine Associates [[Inc]]	5227 Main Street, Unit 32, Downers Grove, IL	635 Main St, Ridgeville, Indiana	Same Core Name, Different Entity	name_core
+S1-895771779	S2-966901727	us	24HR Towing	24HR  (Towing)	641 Midfield Drive, Maumee, OH	12111 WINDBROOK DR, CLINTON, MD	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-895771779	S2-352144367	us	24HR Towing	24HR  Towing	641 Midfield Drive, Maumee, OH	103 FOLEY RD, KIRKWOOD, NY	Same Name, Different Entity	exact_name,name_core,rare_token
+S1-895771779	S3-887537863	us	24HR Towing	24HR  Towing	641 Midfield Drive, Maumee, OH	20 Timonium Road, # Suite 111, Lutherville, Maryland	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-895771779	S3-515481893	us	24HR Towing	24HR [Towing]	641 Midfield Drive, Maumee, OH	Kentucky, Greenville CITY, 204 Maggie Lane	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-895771779	S3-828102841	us	24HR Towing	24HR  Towing	641 Midfield Drive, Maumee, OH	North Freeway, Houston Ownship, Texas	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-895771779	S3-161806836	us	24HR Towing	24HR Towing	641 Midfield Drive, Maumee, OH	152 Ave, <NULL>, South Ozone Park, New York	Same Name, Different Entity	exact_name,name_core,rare_token
+S1-895771779	S3-966700224	us	24HR Towing	24HR  Towing	641 Midfield Drive, Maumee, OH	310 Miles Road, # 4, Shelby, North Carolina	Same Name, Different Entity	exact_name,name_core,rare_token
+S1-895771779	S3-293450175	us	24HR Towing	24hr-Towing	641 Midfield Drive, Maumee, OH	Washington, 1105 Mclean Road, Mount Vernon	Same Name, Different Entity	exact_name,name_core
+S1-895771779	S2-19009763	us	24HR Towing	24HR  Towing LLC	641 Midfield Drive, Maumee, OH	#4002 CREEK WAY, CHESTERFIELD COUNTY, VA	Same Core Name, Different Entity	name_core,rare_token
+S1-895771779	S3-130509314	us	24HR Towing	24HR Towing Inc	641 Midfield Drive, Maumee, OH	Newport, # Apartment 1, Kentucky, 940 York Street	Same Core Name, Different Entity	name_core
+S1-436985273	S2-747466359	us	Corner Pilates	Corner  Pilates	KY, 116 Redwood Drive, Frankfort	260 SOUTH HAVEN DRIVE, PARSONS, TN	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-436985273	S2-780481569	us	Corner Pilates	CORNER PILATES	KY, 116 Redwood Drive, Frankfort	104 MORRIS LANE, KINGSTON, TN	Same Name, Different Entity	exact_name,name_core
+S1-436985273	S2-782997330	us	Corner Pilates	CORNER PILATES	KY, 116 Redwood Drive, Frankfort	0766 GRIJALVA DR, CITY OF SOCORRO, TX	Same Name, Different Entity	exact_name,name_core
+S1-436985273	S2-279413047	us	Corner Pilates	Corner-[Pilates]	KY, 116 Redwood Drive, Frankfort	5702 JOE HERREAR DR, CITY OF EL PASO, TX	Same Name, Different Entity	exact_name,name_core
+S1-436985273	S2-314997707	us	Corner Pilates	Corner  Pilates	KY, 116 Redwood Drive, Frankfort	845 BAYSIDE RD, ELGIN, IL	Same Name, Different Entity	exact_name,name_core
+S1-436985273	S3-289098350	us	Corner Pilates	Corner Pilates	KY, 116 Redwood Drive, Frankfort	130 Queen St, City Of Wilson, North Carolina	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-436985273	S3-410700283	us	Corner Pilates	Corner Pilates!	KY, 116 Redwood Drive, Frankfort	5232 Terrace Ave, Indianapolis, Indiana	Same Name, Different Entity	exact_name,name_core
+S1-436985273	S2-78769581	us	Corner Pilates	CORNER PILATES ((LLC))	KY, 116 Redwood Drive, Frankfort	VALLEY DR, HIGH POINT, NC	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-436985273	S2-645552685	us	Corner Pilates	Corner Pilates Ltd	KY, 116 Redwood Drive, Frankfort	404-408 LOMBARDY DRIVE, OH, BEREA	Same Core Name, Different Entity	name_core
+S1-436985273	S2-927627785	us	Corner Pilates	corner pilates llc	KY, 116 Redwood Drive, Frankfort	0202 Valley Drive, HIGH POINT, NC	Same Core Name, Different Entity	name_core
+S1-436985273	S2-12095797	us	Corner Pilates	Corner Pilates Llc	KY, 116 Redwood Drive, Frankfort	524 ANDREW CIR, <NULL>, TALBOTT, TN	Same Core Name, Different Entity	name_core
+S1-436985273	S2-497322443	us	Corner Pilates	CORNER PILATES!, INC.	KY, 116 Redwood Drive, Frankfort	00680 FITZWATER ST, SALISBURY, MD	Same Core Name, Different Entity	name_core
+S1-436985273	S2-629629067	us	Corner Pilates	Corner Pilates Inc.	KY, 116 Redwood Drive, Frankfort	62 SOUTH HAVEN DR, PAROSNS, TN	Same Core Name, Different Entity	name_core
+S1-436985273	S3-288447604	us	Corner Pilates	Corner Pilates Inc	KY, 116 Redwood Drive, Frankfort	3306 South Blvd, # 624, Charlotte, North Carolina	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-436985273	S3-252555009	us	Corner Pilates	CORNER PILATES LLC	KY, 116 Redwood Drive, Frankfort	6803 Cantereury Dr, Peoria, Arizona	Same Core Name, Different Entity	name_core
+S1-436985273	S3-148263553	us	Corner Pilates	Corner Pilates Corporation	KY, 116 Redwood Drive, Frankfort	504 Justin Ln, Newport News City, Virginia	Same Core Name, Different Entity	name_core
+S1-436985273	S3-269094621	us	Corner Pilates	corner pilates inc	KY, 116 Redwood Drive, Frankfort		Same Core Name, Different Entity	name_core
+S1-993357110	S2-185405451	us	Chiropractic Center	Chiropractic Center	416 5th Avenue, East Grand Forks, MN	HIGH POINT, 106 ROCKSPRING RD, NC	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-993357110	S2-935712733	us	Chiropractic Center	Chiropractic Center	416 5th Avenue, East Grand Forks, MN	EUGENE, 3003 DELTA HIGHWAY, OR	Same Name, Different Entity	exact_name,name_core
+S1-993357110	S2-939801152	us	Chiropractic Center	CHIROPRACTIC CENTER	416 5th Avenue, East Grand Forks, MN	229-C ELM PATCH DR, KATY, TX	Same Name, Different Entity	exact_name,name_core
+S1-993357110	S2-1543418	us	Chiropractic Center	Chiropractic Center	416 5th Avenue, East Grand Forks, MN	LAKESIDE DRIVE, NOBLE, OK	Same Name, Different Entity	exact_name,name_core
+S1-993357110	S2-418524315	us	Chiropractic Center	Chiropractic Center	416 5th Avenue, East Grand Forks, MN	203 NORTH ST, COLDWATER, OH	Same Name, Different Entity	exact_name,name_core
+S1-993357110	S2-911773924	us	Chiropractic Center	Chiropractic Center	416 5th Avenue, East Grand Forks, MN	052282 LAKE MARY RONAN RD, PO BOX 294, PROCTOR, MT	Same Name, Different Entity	exact_name,name_core
+S1-993357110	S3-717691342	us	Chiropractic Center	Chiropractic Center	416 5th Avenue, East Grand Forks, MN	93-26 197 Steret, Hollis, New York	Same Name, Different Entity	exact_name,name_core
+S1-993357110	S3-76024810	us	Chiropractic Center	Chiropractic Center	416 5th Avenue, East Grand Forks, MN	16504A Greens Corner Rd, Culpeper County, Virginia	Same Name, Different Entity	exact_name,name_core
+S1-993357110	S3-973281786	us	Chiropractic Center	Chiropractic  Center	416 5th Avenue, East Grand Forks, MN	2417 Brookland Pkwy, Richmond, Virginia	Same Name, Different Entity	exact_name,name_core
+S1-993357110	S3-510350579	us	Chiropractic Center	Chiropractic Center	416 5th Avenue, East Grand Forks, MN	1226 Harper Lee Dr, Newton, North Carolina	Same Name, Different Entity	exact_name,name_core
+S1-993357110	S3-558870802	us	Chiropractic Center	Chiropractic Center	416 5th Avenue, East Grand Forks, MN	738 Frazier Lane, Santa Barbara, California	Same Name, Different Entity	exact_name,name_core
+S1-993357110	S2-270301996	us	Chiropractic Center	Chiropractic Center Inc	416 5th Avenue, East Grand Forks, MN	5325 GRMVE ST, SKOKIE, IL	Same Core Name, Different Entity	name_core
+S1-993357110	S2-560299871	us	Chiropractic Center	Chiropractic Center-LLC	416 5th Avenue, East Grand Forks, MN	#109 FOURTEENTH STREET, CHARLESTON, IL	Same Core Name, Different Entity	name_core
+S1-993357110	S2-825251438	us	Chiropractic Center	Chiropractic Center Llc	416 5th Avenue, East Grand Forks, MN	12868 Cr 330, BIG PRAIRIE, OH	Same Core Name, Different Entity	name_core
+S1-993357110	S2-139825475	us	Chiropractic Center	Chiropractic Center LLC	416 5th Avenue, East Grand Forks, MN	001137 EVENTIDE BLVD, WILMINGTON TOWNSHIP, NC	Same Core Name, Different Entity	name_core
+S1-993357110	S3-168148806	us	Chiropractic Center	chiropractic center co	416 5th Avenue, East Grand Forks, MN	1435-1439 Nicholson St, Houston, Texas	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-993357110	S3-105132175	us	Chiropractic Center	Chiropractic  Center LLC	416 5th Avenue, East Grand Forks, MN	17040 Summers Walk Boulevard, Davidson, North Carolina	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-993357110	S3-285481975	us	Chiropractic Center	Chiropractic Center Llc	416 5th Avenue, East Grand Forks, MN	17 Massman Manor Dr, Nashville, Tennessee	Same Core Name, Different Entity	char_3gram_k10,name_core
+S1-993357110	S3-452039763	us	Chiropractic Center	Chiropractic Center Inc	416 5th Avenue, East Grand Forks, MN	30 Chestnut Street, Peabody, Massachusetts	Same Core Name, Different Entity	name_core
+S1-993357110	S3-663778095	us	Chiropractic Center	CHIROPRACTIC CENTER INC	416 5th Avenue, East Grand Forks, MN	4628d 77rd Saint, Marysville, Washington	Same Core Name, Different Entity	name_core
+S1-993357110	S3-64143170	us	Chiropractic Center	Chiropractic-Center LLC	416 5th Avenue, East Grand Forks, MN	2575 Ranburn Dr, Gary, Indiana	Same Core Name, Different Entity	name_core
+S1-993357110	S3-114445856	us	Chiropractic Center	Chiropractic Center Inc	416 5th Avenue, East Grand Forks, MN	740 Lakeside Drive, Noble, Oklahoma	Same Core Name, Different Entity	name_core
+S1-993357110	S3-108777322	us	Chiropractic Center	CHIROPRACTIC CENTER LLC	416 5th Avenue, East Grand Forks, MN	##6155 1071, Wolf Point, Montana	Same Core Name, Different Entity	name_core
+S1-993357110	S3-640230018	us	Chiropractic Center	chiropractic center, inc	416 5th Avenue, East Grand Forks, MN	11734 Jamaica Avenue, null, Richmond Hill, New York	Same Core Name, Different Entity	name_core
+S1-993357110	S3-944521863	us	Chiropractic Center	Chiropractic-Center LLC	416 5th Avenue, East Grand Forks, MN	3309- Aylesworth Street, Plainview, Texas	Same Core Name, Different Entity	name_core
+S1-993357110	S3-659456760	us	Chiropractic Center	Chiropractic Opscaml Group LLC	416 5th Avenue, East Grand Forks, MN	416 Bethel Farms Lane, Camden, Tennessee	Same House Number, Different Entity	house_name
+S1-842497118	S2-387870644	us	Atlantic Chiron	ATLANTIC-CHIRON	3744 Blue Trace Lane, Farmers Branch, TX	2225 9ND STREET, FARGO TOWNSHIP, ND	Same Name, Different Entity	exact_name,name_core,rare_token
+S1-977704542	S2-742488772	us	Williams Strategic	Williams (Strategic)	197 Kenton Run, Wythe County, VA	319 HANOVER STREET, BOSTON, MA	Same Name, Different Entity	exact_name,name_core
+S1-338840619	S2-49268162	us	Quartz, LLC	Quartz LLC	602 723, Bldg Residence, Crittenden County, KY	03850 TUNLAW RD, DC, WASHINGTON	Same Name, Different Entity	exact_name,name_core,rare_token
+S1-338840619	S2-36061379	us	Quartz, LLC	Quartz, LLC	602 723, Bldg Residence, Crittenden County, KY		Same Name, Different Entity	exact_name,name_core,rare_token
+S1-338840619	S2-617975221	us	Quartz, LLC	Quartz LLC	602 723, Bldg Residence, Crittenden County, KY	5643 Wild Rye Ct SE, BERTRAM TWP, IA	Same Name, Different Entity	exact_name,name_core,rare_token
+S1-338840619	S2-634773433	us	Quartz, LLC	Quartz LLC	602 723, Bldg Residence, Crittenden County, KY	#10 BITTERSWEET DRIVE, HAGERSTOWN, MD	Same Name, Different Entity	exact_name,name_core,rare_token
+S1-338840619	S2-952002480	us	Quartz, LLC	Quartz LLC	602 723, Bldg Residence, Crittenden County, KY	0103 HMS STAYNER DRIVE, HINGHAM, MA	Same Name, Different Entity	exact_name,name_core,rare_token
+S1-338840619	S2-735043347	us	Quartz, LLC	Quartz, LLC	602 723, Bldg Residence, Crittenden County, KY	16810. NORBROOK DR, OLNEY, MD	Same Name, Different Entity	exact_name,name_core,rare_token
+S1-338840619	S2-93252860	us	Quartz, LLC	Quartz, Llc	602 723, Bldg Residence, Crittenden County, KY	14997  WALTER ROBINSON LN, HAYMARKET TOWNSHIP, VA	Same Name, Different Entity	exact_name,name_core,rare_token
+S1-338840619	S3-781546931	us	Quartz, LLC	Quartz LLC	602 723, Bldg Residence, Crittenden County, KY	3850 Tunlmw Rd, Unit 606, Washington, District of Columbia	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-338840619	S3-320769760	us	Quartz, LLC	Quartz, (Llc)	602 723, Bldg Residence, Crittenden County, KY	Granger, Iowa, Unit Lot 205, Jester Park Dr	Same Name, Different Entity	exact_name,name_core,rare_token
+S1-338840619	S3-948807186	us	Quartz, LLC	Quartz Llc	602 723, Bldg Residence, Crittenden County, KY	306 Signal Ridge Road, Frankfort, Kentucky	Same Name, Different Entity	exact_name,name_core,rare_token
+S1-338840619	S3-945352112	us	Quartz, LLC	Quartz LLC	602 723, Bldg Residence, Crittenden County, KY	2255 44th St, # 2103, Phoenix, Arizona	Same Name, Different Entity	exact_name,name_core,rare_token
+S1-338840619	S2-376197592	us	Quartz, LLC	Quartz Ltd	602 723, Bldg Residence, Crittenden County, KY	116  BROOKBERRY ROAD, OAK RIDGE, TN	Same Core Name, Different Entity	name_core,rare_token
+S1-338840619	S2-620204144	us	Quartz, LLC	QUARTZ	602 723, Bldg Residence, Crittenden County, KY	923 CARMEN ST, TEMPE, AZ	Same Core Name, Different Entity	name_core,rare_token
+S1-338840619	S2-999315581	us	Quartz, LLC	Quartz	602 723, Bldg Residence, Crittenden County, KY	8110 BALSAMWOOD LN, CLAY, NY	Same Core Name, Different Entity	name_core,rare_token
+S1-338840619	S2-249519199	us	Quartz, LLC	quartz inc	602 723, Bldg Residence, Crittenden County, KY	1047 POE ST, ROSWELL, NM	Same Core Name, Different Entity	name_core,rare_token
+S1-338840619	S2-617521178	us	Quartz, LLC	Quartz	602 723, Bldg Residence, Crittenden County, KY	126-A CABOT LN, FAIRHOPE, AL	Same Core Name, Different Entity	name_core,rare_token
+S1-338840619	S2-77325072	us	Quartz, LLC	quartz	602 723, Bldg Residence, Crittenden County, KY	MULLEN AVENUE, RICHFORD, VT	Same Core Name, Different Entity	name_core,rare_token
+S1-338840619	S2-823304317	us	Quartz, LLC	Quartz	602 723, Bldg Residence, Crittenden County, KY	322 GRANT ST, OGDENSBURG, NY	Same Core Name, Different Entity	name_core,rare_token
+S1-338840619	S2-195407240	us	Quartz, LLC	Quartz (Inc)	602 723, Bldg Residence, Crittenden County, KY	#3038 RYNIKER DRIVE, BILLINGS, MT	Same Core Name, Different Entity	name_core,rare_token
+S1-338840619	S2-7104930	us	Quartz, LLC	Quartz, Inc	602 723, Bldg Residence, Crittenden County, KY	410 OSCAR ST, HICKSVILLE VILLAGE, OH	Same Core Name, Different Entity	name_core,rare_token
+S1-338840619	S2-397416071	us	Quartz, LLC	Quartz	602 723, Bldg Residence, Crittenden County, KY	838- 109TH CT, VANCOUVER, WA	Same Core Name, Different Entity	name_core,rare_token
+S1-338840619	S2-255438115	us	Quartz, LLC	quartz	602 723, Bldg Residence, Crittenden County, KY	18257 MARTIN AVE, HOMEOWOD, IL	Same Core Name, Different Entity	name_core,rare_token
+S1-338840619	S3-483176316	us	Quartz, LLC	Quartz Ltd	602 723, Bldg Residence, Crittenden County, KY	Tennessee, Athens, 526 Sunset Dr	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-338840619	S3-368217924	us	Quartz, LLC	Quartz Co	602 723, Bldg Residence, Crittenden County, KY	Winston, 343 Gregory Dr, Oregon	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-338840619	S3-650117465	us	Quartz, LLC	Quartz	602 723, Bldg Residence, Crittenden County, KY	32 Temple Street, Unit 98, Boston, MA	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-338840619	S3-80649176	us	Quartz, LLC	Quartz Inc.	602 723, Bldg Residence, Crittenden County, KY	508 Westwind Way, West Valley City, Utah	Same Core Name, Different Entity	name_core,rare_token
+S1-338840619	S3-971990186	us	Quartz, LLC	Quartz	602 723, Bldg Residence, Crittenden County, KY	11694 1/2 Big Bear Ln, Lusby, Maryland	Same Core Name, Different Entity	name_core,rare_token
+S1-338840619	S3-901792356	us	Quartz, LLC	Quartz	602 723, Bldg Residence, Crittenden County, KY	900 Wildwood Dr, Cassville, Missouri	Same Core Name, Different Entity	name_core,rare_token
+S1-338840619	S3-770497855	us	Quartz, LLC	Quartz	602 723, Bldg Residence, Crittenden County, KY	##1020 Claremont Road, Charlotte, North Carolina	Same Core Name, Different Entity	name_core,rare_token
+S1-349873839	S2-699329358	us	Desert College LLC	Desert College  LLC	1819 Stoneridge Lane, Town Of Cedarburg, WI	12680 KINGFISHER RD, GRAND TERRACE, CA	Same Name, Different Entity	exact_name,name_core
+S1-349873839	S3-909822550	us	Desert College LLC	Desert  College	1819 Stoneridge Lane, Town Of Cedarburg, WI	4018 Aspen Grove Drive, Unit 124, Franklin, Tennessee	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-349873839	S3-718476277	us	Desert College LLC	Desert  College	1819 Stoneridge Lane, Town Of Cedarburg, WI	3714 Route 75 Hwy, Huntington, West Virginia	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-944430830	S2-39873745	india	Real Trading	Real Trading	Plot 120, Sy No 41 Kavuri Hills Phase-1, Jubilee Hills, Hyderabad, Telangana	B-6/1, COMMERCIAL CENTER SAFDARIUNG ENCLAVE, NEW DELHI, Delhi	Same Name, Different Entity	exact_name,name_core
+S1-944430830	S2-816923258	india	Real Trading	Real Trading  Private Limited	Plot 120, Sy No 41 Kavuri Hills Phase-1, Jubilee Hills, Hyderabad, Telangana	S-326 GREATER KAILASH PART I, NEW DELHI, Delhi	Same Core Name, Different Entity	name_core
+S1-944430830	S3-451431681	india	Real Trading	Real Trading (Private-Limited)	Plot 120, Sy No 41 Kavuri Hills Phase-1, Jubilee Hills, Hyderabad, Telangana	D-##12 Abrar Nagar Near Foster Academy, Lucknow, UP	Same Core Name, Different Entity	name_core
+S1-944430830	S3-592093631	india	Real Trading	Real Trading Limited	Plot 120, Sy No 41 Kavuri Hills Phase-1, Jubilee Hills, Hyderabad, Telangana	131 Andheri Universsalindustrial Estate Andheri West, Mumbai, महाराष्ट्र	Same Core Name, Different Entity	name_core
+S1-402046621	S2-388371145	us	Family Clinic	Family Clinic	VA, 23037 Olympia Drive, Loudoun County	4336-A MOSER LANE, PERRYSBURG, OH	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-402046621	S2-344747796	us	Family Clinic	Family Clinic	VA, 23037 Olympia Drive, Loudoun County	SKIPPACK PIKE, SCHWENKSVILLE, PA	Same Name, Different Entity	exact_name,name_core
+S1-402046621	S2-324117010	us	Family Clinic	Family Clinic	VA, 23037 Olympia Drive, Loudoun County	69 REMSEN STREET, STATEN ISLAND, NY	Same Name, Different Entity	exact_name,name_core
+S1-402046621	S3-454169329	us	Family Clinic	Family Clinic	VA, 23037 Olympia Drive, Loudoun County	17300 88nd Avenue, Unit 135, Peoria, Arizona	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-402046621	S3-135449479	us	Family Clinic	family clinic	VA, 23037 Olympia Drive, Loudoun County	88th Pl, Redmond Tonship, Washington	Same Name, Different Entity	exact_name,name_core
+S1-402046621	S3-853117495	us	Family Clinic	>> Family Clinic	VA, 23037 Olympia Drive, Loudoun County	#1141 3110, Jacksonville, Texas	Same Name, Different Entity	exact_name,name_core
+S1-402046621	S3-872423594	us	Family Clinic	Family Clinic	VA, 23037 Olympia Drive, Loudoun County	29 Grove Street, Unit C, West Springfield, Massachusetts	Same Name, Different Entity	exact_name,name_core
+S1-402046621	S3-668286720	us	Family Clinic	Family Clinic	VA, 23037 Olympia Drive, Loudoun County	Valeria Street, Nashville, Tennessee	Same Name, Different Entity	exact_name,name_core
+S1-402046621	S3-129719961	us	Family Clinic	Family Clinic	VA, 23037 Olympia Drive, Loudoun County	408- Kolstad St, Palestine, Texas	Same Name, Different Entity	exact_name,name_core
+S1-402046621	S2-168936816	us	Family Clinic	Family-Clinic Co	VA, 23037 Olympia Drive, Loudoun County	1578 RIVERWOOD DR, LANCASTER, VA	Same Core Name, Different Entity	name_core
+S1-402046621	S2-701194569	us	Family Clinic	FAMILY CLINIC (INC.)	VA, 23037 Olympia Drive, Loudoun County	215 DELMAR COURT, WARSAW, IN	Same Core Name, Different Entity	name_core
+S1-402046621	S2-56604558	us	Family Clinic	Family Clinic Inc.	VA, 23037 Olympia Drive, Loudoun County	426 FILLY CT, WALTN, KY	Same Core Name, Different Entity	name_core
+S1-402046621	S2-969457467	us	Family Clinic	FAMILY CLINIC  LTD.	VA, 23037 Olympia Drive, Loudoun County	1578 RIVERWOOD DRIVE, LANCASTER, VA	Same Core Name, Different Entity	name_core
+S1-402046621	S3-681830113	us	Family Clinic	Family Clinic [Inc.]	VA, 23037 Olympia Drive, Loudoun County	0800 Dimond Blvd, # STE 3-440, Anchorage, Alaska	Same Core Name, Different Entity	char_3gram_k10,name_core
+S1-402046621	S3-671328290	us	Family Clinic	Family Clinic Llc	VA, 23037 Olympia Drive, Loudoun County	810 Classon Avenue, Brooklyn, New York	Same Core Name, Different Entity	name_core
+S1-402046621	S3-410510498	us	Family Clinic	Family Clinic LLC	VA, 23037 Olympia Drive, Loudoun County	8602 De Alva Dr, N/A, El Paso County, Texas	Same Core Name, Different Entity	name_core
+S1-636549603	S2-155576048	us	Family Physicians Inc	Family-Physicians Inc	1024 31st Avenue, Bellwood, IL	7861- INDUSTRIAL PARKWAY, JEROME TWP, OH	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-636549603	S3-775733871	us	Family Physicians Inc	Family Physicians, Inc	1024 31st Avenue, Bellwood, IL	826 Royal Lane, # 393, Irving, Texas	Same Name, Different Entity	exact_name,name_core
+S1-636549603	S2-633159995	us	Family Physicians Inc	Family Physicians	1024 31st Avenue, Bellwood, IL	8114 TAYLOR COURT, PORTLAND, OR	Same Core Name, Different Entity	name_core
+S1-636549603	S2-942536756	us	Family Physicians Inc	Family Physicians  LLC	1024 31st Avenue, Bellwood, IL	URBAN FARM WAY, CABOT, VT	Same Core Name, Different Entity	name_core
+S1-636549603	S2-546823015	us	Family Physicians Inc	Family Physicians	1024 31st Avenue, Bellwood, IL	14921  VALLEYWAY AVENUE, SPOKANE VALLEY, WA	Same Core Name, Different Entity	name_core
+S1-636549603	S2-751876367	us	Family Physicians Inc	Family  Physicians	1024 31st Avenue, Bellwood, IL	BEECH RIDGE RD, COLESVILLE, NY	Same Core Name, Different Entity	name_core
+S1-636549603	S2-908828573	us	Family Physicians Inc	Family Physicians	1024 31st Avenue, Bellwood, IL	540- FORT DRIVE, CHARLESTON, WV	Same Core Name, Different Entity	name_core
+S1-636549603	S3-890306153	us	Family Physicians Inc	Family-Physicians	1024 31st Avenue, Bellwood, IL	Plain, Montana, 1049- River Road	Same Core Name, Different Entity	char_3gram_k10,name_core
+S1-636549603	S3-401949425	us	Family Physicians Inc	Family Physicians	1024 31st Avenue, Bellwood, IL	10 1/2 Sheffield Ct, Johnson City, Tennessee	Same Core Name, Different Entity	name_core
+S1-636549603	S3-389852673	us	Family Physicians Inc	Family Physicians	1024 31st Avenue, Bellwood, IL	107A Pisgah View Rd, North Carolina, Asheville	Same Core Name, Different Entity	name_core
+S1-636549603	S3-461374950	us	Family Physicians Inc	Family Physicians  Corp	1024 31st Avenue, Bellwood, IL	1036-1040 Sycamore Estates, Nashville, Tennessee	Same Core Name, Different Entity	name_core
+S1-636549603	S3-779927646	us	Family Physicians Inc	Family Physicians	1024 31st Avenue, Bellwood, IL	18441 Palo Verde Ave, Waddell, Arizona	Same Core Name, Different Entity	name_core
+S1-636549603	S3-761221669	us	Family Physicians Inc	Family (Physicians)	1024 31st Avenue, Bellwood, IL	1449-1453 Yadkin Ln, Lenoir, North Carolina	Same Core Name, Different Entity	name_core
+S1-636549603	S3-51951317	us	Family Physicians Inc	Family Physicians, LLC	1024 31st Avenue, Bellwood, IL		Same Core Name, Different Entity	name_core
+S1-636549603	S3-323898520	us	Family Physicians Inc	Family Physicians  LLC	1024 31st Avenue, Bellwood, IL	North Carolina, Huntersville, 692 Oakham Saint	Same Core Name, Different Entity	name_core
+S1-636549603	S3-118031074	us	Family Physicians Inc	Family  Physicians LLC	1024 31st Avenue, Bellwood, IL	110 Abigail Trl, Deer Lodge, Tennessee	Same Core Name, Different Entity	name_core
+S1-832593986	S2-153670947	us	Bureau of Health	Bureau of Health	370 Buckeye Circle, La Plata, MD	4407 MILITARY RD, NIAGARA, NY	Same Name, Different Entity	exact_name,name_core
+S1-832593986	S3-858673620	us	Bureau of Health	Bureau of Health	370 Buckeye Circle, La Plata, MD	Laramie Ln, City Of Janesville, Wisconsin	Same Name, Different Entity	exact_name,name_core
+S1-832593986	S2-550288139	us	Bureau of Health	Bureau of Health  Corporation	370 Buckeye Circle, La Plata, MD	129 SUNRIDGE WAY, REDLANDS, CA	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-832593986	S3-182079491	us	Bureau of Health	Bureau of Health Corp	370 Buckeye Circle, La Plata, MD	3094 Barrington Hills Ct, Madison, Wisconsin	Same Core Name, Different Entity	name_core
+S1-778456014	S3-474985510	india	Tot Network Company	Tot Network Ltd	Mahuva, Bhavnagar, Behind Kings Cold Storage, Mahuva-Bhavnagar Highway, Mahuva, Revenue Survey No. 190P1/P1 & 190P1/P2, Gujarat	Plot No. 56, Tambaram, Pallavaram, தமிழ்நாடு	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-904228116	S2-21940920	us	Office of Aging	OFFICE OF AGING	2637 Greenbrier Drive, Hinton, WV	120 Quarter Horse Cir, KINGSLAND BC, TX	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-904228116	S2-262490601	us	Office of Aging	Office  of Aging	2637 Greenbrier Drive, Hinton, WV	17 LAUREL LANE, PLYMOUTH TOWNSHIP, PA	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-904228116	S3-760046866	us	Office of Aging	Office  of Aging	2637 Greenbrier Drive, Hinton, WV	1300 Andre Street, Baltimore, Maryland	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-904228116	S2-139219752	us	Office of Aging	OFFICE OF AGING INC.	2637 Greenbrier Drive, Hinton, WV		Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-904228116	S2-758205074	us	Office of Aging	Office of Aging Corp	2637 Greenbrier Drive, Hinton, WV	3322 BROADWAY CIR, BROKEN ARROW, OK	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-904228116	S2-906879634	us	Office of Aging	Office of Aging Ltd	2637 Greenbrier Drive, Hinton, WV	WASHINGTON STREET, THE DALLES, OR	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-904228116	S2-892891506	us	Office of Aging	Office of  Aging Ltd	2637 Greenbrier Drive, Hinton, WV	32 SHREWSBURY GREEN DRIVE, SHREWSBURY, MA	Same Core Name, Different Entity	name_core,rare_token
+S1-904228116	S3-584191562	us	Office of Aging	Office Of Aging Llc	2637 Greenbrier Drive, Hinton, WV	Charlotte, North Carolina, 5006 Evanders Way, Unit 304	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-164240371	S2-538629540	us	Family Association	Family Association	OH, Fl 3, Columbus, 5059 Enclave Boulevard	8 CENTTR AVENUE, SOUTHAMPTON, NY	Same Name, Different Entity	exact_name,name_core
+S1-164240371	S3-702961294	us	Family Association	Family Association	OH, Fl 3, Columbus, 5059 Enclave Boulevard	172 Abshire Lane, null, Cleveland, Tennessee	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-164240371	S3-680572341	us	Family Association	Family Association	OH, Fl 3, Columbus, 5059 Enclave Boulevard	##3000 Beauchamp Rd, Little Rock, Arkansas	Same Name, Different Entity	exact_name,name_core
+S1-164240371	S3-854510576	us	Family Association	Family Association	OH, Fl 3, Columbus, 5059 Enclave Boulevard	260 Windsor Rd, Greece, New York	Same Name, Different Entity	exact_name,name_core
+S1-164240371	S2-184430029	us	Family Association	FAMILY ASSOCIATION, LLC	OH, Fl 3, Columbus, 5059 Enclave Boulevard	509 GOODRUM ST, DAVIDSONC ITY, NC	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-164240371	S2-316457964	us	Family Association	FAMILY ASSOCIATION LTD	OH, Fl 3, Columbus, 5059 Enclave Boulevard	1205 62TH AVENUE, MERRILLVILLE, IN	Same Core Name, Different Entity	name_core
+S1-164240371	S2-117449159	us	Family Association	Family Association Llc	OH, Fl 3, Columbus, 5059 Enclave Boulevard	38 SEMINOLE PKWY, BUFFALO, NY	Same Core Name, Different Entity	name_core
+S1-164240371	S2-754056080	us	Family Association	Family  Association Ltd	OH, Fl 3, Columbus, 5059 Enclave Boulevard	18614 SWEETJASMINE LN, SPRING, TX	Same Core Name, Different Entity	name_core
+S1-164240371	S2-893805652	us	Family Association	FAMILY-ASSOCIATION INC	OH, Fl 3, Columbus, 5059 Enclave Boulevard	AL, 107  GRANT ST, MOBILE	Same Core Name, Different Entity	name_core
+S1-164240371	S3-227627730	us	Family Association	Family Association Ltd	OH, Fl 3, Columbus, 5059 Enclave Boulevard	3312 Broadway, Unit Apartment 301, Fargo, North Dakota	Same Core Name, Different Entity	char_3gram_k10,name_core
+S1-164240371	S3-118973043	us	Family Association	Family Association Inc	OH, Fl 3, Columbus, 5059 Enclave Boulevard	9555 Tiger Bend Road, St. George City, Louisiana, PMB 9609	Same Core Name, Different Entity	name_core
+S1-164240371	S3-164089921	us	Family Association	Family Association Corp	OH, Fl 3, Columbus, 5059 Enclave Boulevard	1839 South Street, Coventry Lake, Connecticut	Same Core Name, Different Entity	name_core
+S1-101076392	S2-184318257	us	Straight Edge Pub	Straight Edge Pub	515 Monroe Avenue, Mcalester, OK	965 HAMPTON AVENUE, MESA, AZ	Same Name, Different Entity	exact_name,name_core
+S1-101076392	S2-491345903	us	Straight Edge Pub	Straight Edge [Pub]	515 Monroe Avenue, Mcalester, OK	901 101RD STREET COURT, TACOMA, WA	Same Name, Different Entity	exact_name,name_core
+S1-101076392	S3-307601197	us	Straight Edge Pub	straight edge pub!	515 Monroe Avenue, Mcalester, OK	##71 Marlborough St, # 5, Boston, Massachusetts	Same Name, Different Entity	exact_name,name_core
+S1-101076392	S2-800992054	us	Straight Edge Pub	Straight Edge Pub Inc	515 Monroe Avenue, Mcalester, OK	1223 Pga Dr, LE MARS, IA	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-101076392	S3-686092977	us	Straight Edge Pub	... Straight Edge Pub,  LLC	515 Monroe Avenue, Mcalester, OK	S00864- Cty Tk F, Town Of Modena, Wisconsin	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-101076392	S3-242910936	us	Straight Edge Pub	Straight Edge Pub Inc	515 Monroe Avenue, Mcalester, OK		Same Core Name, Different Entity	name_core
+S1-29696416	S2-626110866	india	Silver Exports Private Limited	Silver Exports Private [Limited]	Noida, Gautam Buddha Nagar, Jasas C-58/8, Sector-62, Uttar Pradesh, A-101		Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-29696416	S2-90845801	india	Silver Exports Private Limited	Silver Exports Pvt Ltd	Noida, Gautam Buddha Nagar, Jasas C-58/8, Sector-62, Uttar Pradesh, A-101	DOOR NO 75 SWISTIK CHAMBERS, CHEMBUR, MUMBAI, Maharashtra	Same Core Name, Different Entity	name_core
+S1-566485202	S2-982677949	us	New Life Synagogue	NEW LIFE  SYNAGOGUE	2035 Litchfield Dr, Hiawatha, IA	9495 54, AMHERST, WI	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-566485202	S2-582740880	us	New Life Synagogue	New Life (Synagogue)	2035 Litchfield Dr, Hiawatha, IA	622 1/2 CENTRAL AVENUE, JAMESTOWN, TN	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-566485202	S3-926561005	us	New Life Synagogue	New Life Synagogue	2035 Litchfield Dr, Hiawatha, IA	9503-A Mcrae Way, Peoria, Arizona	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-566485202	S3-849708458	us	New Life Synagogue	New  Life Synagogue	2035 Litchfield Dr, Hiawatha, IA	5043d Warwick Avenue, Chicago, Illinois	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-566485202	S3-801734314	us	New Life Synagogue	New Life (Synagogue)	2035 Litchfield Dr, Hiawatha, IA	1255 Spruce Lane, Elgin, Illinois	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-566485202	S2-154220920	us	New Life Synagogue	New Life Synagogue LLC	2035 Litchfield Dr, Hiawatha, IA	4415 SPRING GAP ROAD, SLANESVILLE, WV	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-566485202	S2-123577948	us	New Life Synagogue	New  Life Synagogue LLC	2035 Litchfield Dr, Hiawatha, IA	WHITE OAK ST ST, MARSHFFIELD, MO	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-566485202	S3-435532910	us	New Life Synagogue	New Life Synagogue LLC	2035 Litchfield Dr, Hiawatha, IA	16 Marigold Way, City Of El Paso, Texas	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-410040347	S2-409910382	us	Temple Synagogue	Temple Synagogue	10202 W Maple Road, Omaha, NE	APPLE ST, FAYETTEVILLE, OH	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-410040347	S2-704689530	us	Temple Synagogue	Temple Synagogue	10202 W Maple Road, Omaha, NE	2 Saint Pauls Place, TROY, NY	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-410040347	S2-820607111	us	Temple Synagogue	TEMPLE SYNAGOGUE	10202 W Maple Road, Omaha, NE	801 PAULA LN, TX, KENNEDALE	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-410040347	S2-365645392	us	Temple Synagogue	temple synagogue	10202 W Maple Road, Omaha, NE	73 1/2 SHASAM CT, SALER CITY, TX	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-410040347	S2-935539809	us	Temple Synagogue	Temple Synagogue	10202 W Maple Road, Omaha, NE	113-67 SPRINGFIELD BOULEVARD, QUEENS VILLAGE, NY	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-410040347	S2-941949411	us	Temple Synagogue	Temple  Synagogue	10202 W Maple Road, Omaha, NE	26 GRAFTON ROAD, UPTON, MA	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-410040347	S2-796007960	us	Temple Synagogue	Temple Synagogue	10202 W Maple Road, Omaha, NE	113-67 SPRINGFIELD BLVD, QUEENS VILLAGE, NY	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-410040347	S2-55463095	us	Temple Synagogue	Temple Synagogue	10202 W Maple Road, Omaha, NE		Same Name, Different Entity	exact_name,name_core
+S1-410040347	S2-219258657	us	Temple Synagogue	Temple Synagogue	10202 W Maple Road, Omaha, NE	303 GRANT ST, EDINBURGH, IN	Same Name, Different Entity	exact_name,name_core
+S1-410040347	S3-188478563	us	Temple Synagogue	Temple Synagogue	10202 W Maple Road, Omaha, NE	124 Walnut Branch Lane, Knoxville, Tennessee	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-410040347	S2-404015743	us	Temple Synagogue	Temple Synagogue Inc.	10202 W Maple Road, Omaha, NE	1501 WOOD AVENUE, null, LUBBOCK, TX	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-410040347	S2-823553596	us	Temple Synagogue	Temple Synagogue Inc.	10202 W Maple Road, Omaha, NE	10 HOWIE SAINT, HELENA, MT	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-410040347	S3-719538570	us	Temple Synagogue	Temple Synagogue LLC	10202 W Maple Road, Omaha, NE	Georgia, # C3, Atlanta, 1802 Memorial Dr	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-410040347	S3-291364776	us	Temple Synagogue	Temple Synagogue Corp	10202 W Maple Road, Omaha, NE	27 Patricia Lane, Rexford, New York	Same Core Name, Different Entity	char_3gram_k10,name_core
+S1-171653159	S2-814853152	india	First Hospitality LLP	FIRST  HOSPITALITY LLP	Wz-351, Delhi, Shakurpur Village, Delhi	F-4, KHAJOORI ROAD, BATLA HOUSE, JAMIA NAGAR, Delhi	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-171653159	S3-603235983	india	First Hospitality LLP	First-Hospitality	Wz-351, Delhi, Shakurpur Village, Delhi	326 M B Raod, Kolkata, Parganas North, WB	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-171653159	S3-914146871	india	First Hospitality LLP	First  Hospitality Limited	Wz-351, Delhi, Shakurpur Village, Delhi	C5/28 Vipul Khand Goti Nagar, Lucknow, UP	Same Core Name, Different Entity	name_core
+S1-171653159	S3-961045610	india	First Hospitality LLP	First Hospitality	Wz-351, Delhi, Shakurpur Village, Delhi	No. 40, Coimbatore South, Coimbatore, TN	Same Core Name, Different Entity	name_core
+S1-171653159	S3-669661682	india	First Hospitality LLP	first hospitality private limited	Wz-351, Delhi, Shakurpur Village, Delhi	Pllt No: 0105 & 106, Lumbini Layout, Gachibowli, Kondapur, Hyderabad, TG	Same Core Name, Different Entity	name_core
+S1-60629534	S2-658011747	us	Delta Center	Delta Center	26 Brookdale Street, Valley Falls, RI	20831 TWILA SPRINGS DRIVE, HOUSTON, TX	Same Name, Different Entity	exact_name,name_core
+S1-60629534	S2-687374012	us	Delta Center	Delta Center	26 Brookdale Street, Valley Falls, RI	6103 43RD TERRACE, TOPEKACDP, KS	Same Name, Different Entity	exact_name,name_core
+S1-60629534	S2-420798477	us	Delta Center	Delta Center	26 Brookdale Street, Valley Falls, RI	5651 4100, KAUFMAN, TX	Same Name, Different Entity	exact_name,name_core
+S1-60629534	S3-513845138	us	Delta Center	Delta Center	26 Brookdale Street, Valley Falls, RI	Painesville, 11121 Caddie Lane, Ohio	Same Name, Different Entity	exact_name,name_core
+S1-60629534	S3-609306281	us	Delta Center	Delta Center	26 Brookdale Street, Valley Falls, RI	28 Reed St, Connecticut, Vernon	Same Name, Different Entity	exact_name,name_core
+S1-60629534	S2-62214818	us	Delta Center	Delta Center Inc.	26 Brookdale Street, Valley Falls, RI	##4140 CENTRAL PLANK RD, WETUMPKA, AL	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-60629534	S3-983466333	us	Delta Center	Delta Center Inc	26 Brookdale Street, Valley Falls, RI	00114 Wembley Court, Folsom, California	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-60629534	S2-515515603	us	Delta Center	DELTA PHOENIX	26 Brookdale Street, Valley Falls, RI	26 CHAMPLIN ST, RONKONNKOMA CITY, NY	Same House Number, Different Entity	house_name
+S1-804171096	S2-71545151	us	Uptown Yoga!	Uptown Yoga	8001 Coastal Highway, Unit C, Ocean City, MD	54280 NEW CASTLE-BEALLSVILLE RD, BEALLSVILLE, OH	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-804171096	S2-174105297	us	Uptown Yoga!	Uptown Yoga	8001 Coastal Highway, Unit C, Ocean City, MD	501D DUNWOODY CT, FRANKLIN, TN	Same Name, Different Entity	exact_name,name_core
+S1-804171096	S2-700382775	us	Uptown Yoga!	UPTOWN  YOGA	8001 Coastal Highway, Unit C, Ocean City, MD	804A EASTANALLEE AVENUE, ATHENS, TN	Same Name, Different Entity	exact_name,name_core
+S1-804171096	S3-54007347	us	Uptown Yoga!	Uptown  Yoga	8001 Coastal Highway, Unit C, Ocean City, MD	71 Conant St, # 4, Beverly, Massachusetts	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-804171096	S3-574665074	us	Uptown Yoga!	UPTOWN YOGA	8001 Coastal Highway, Unit C, Ocean City, MD	7980 Mayten Ave, # UNIT 4016, Rancho Cucamonga, California	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-804171096	S3-387727822	us	Uptown Yoga!	Uptown [Yoga!]	8001 Coastal Highway, Unit C, Ocean City, MD	21424 Cr 106, <NULL>, Newcomerstown, Ohio	Same Name, Different Entity	exact_name,name_core
+S1-804171096	S2-283256435	us	Uptown Yoga!	Uptown Yoga  LLC	8001 Coastal Highway, Unit C, Ocean City, MD	IL, OFALLON, 502 FLAGSTONE PASS DR	Same Core Name, Different Entity	char_3gram_k10,name_core
+S1-804171096	S3-982286178	us	Uptown Yoga!	Uptown Yoga Inc	8001 Coastal Highway, Unit C, Ocean City, MD	15 Saratoga St, Pawling CITY, New York	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-804171096	S3-263281664	us	Uptown Yoga!	Uptown Yoga Inc	8001 Coastal Highway, Unit C, Ocean City, MD		Same Core Name, Different Entity	char_3gram_k10,name_core
+S1-804171096	S3-466871316	us	Uptown Yoga!	Uptown Yoga! Corporation	8001 Coastal Highway, Unit C, Ocean City, MD	21424 Cr 106, Newcomerstown, <NULL>, Ohio	Same Core Name, Different Entity	name_core
+S1-291991311	S2-605384211	us	Physical Therapy Coastal Group	PHYSICAL THERAPY COASTAL GROUP	710 7th Avenue, Mandan, ND		Same Name, Different Entity	exact_name,name_core
+S1-291991311	S3-497472606	us	Physical Therapy Coastal Group	Physical Therapy Coastal Group LLC	710 7th Avenue, Mandan, ND	602 Larry Lane, City Of Green Bay, Wisconsin	Same Core Name, Different Entity	char_3gram_k10,name_core
+S1-364278564	S2-694150477	us	Mount Chapel	Mount-Chapel	151 32 Parkway, Mt Orab, OH	CENTER AVENUE, null, CUYAHOGA FALLS, OH	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-364278564	S2-778898826	us	Mount Chapel	Mount Chapel	151 32 Parkway, Mt Orab, OH	AL, 13, HALEYVILLE	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-364278564	S2-119710758	us	Mount Chapel	Mount Chapel Ltd	151 32 Parkway, Mt Orab, OH	#9 FOXFIRE TRACE, OAK ISLAND, NC	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-364278564	S2-960018178	us	Mount Chapel	Mount Chapel  (Co)	151 32 Parkway, Mt Orab, OH	16032 CERRO ALTO DRIVE, FOUNTAIN HIILLS, AZ	Same Core Name, Different Entity	name_core
+S1-364278564	S3-155952476	us	Mount Chapel	Mount Chapel Inc	151 32 Parkway, Mt Orab, OH	2429 Lake Ridge Dr, Abiote, Indiana	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-364278564	S3-441170922	us	Mount Chapel	Mount Chapel Inc	151 32 Parkway, Mt Orab, OH	1007 Barth Drve, Baldwin, New York	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-364278564	S3-190560033	us	Mount Chapel	Mount Chapel Corporation	151 32 Parkway, Mt Orab, OH	Eagle Dr, Skagit County, Washington	Same Core Name, Different Entity	name_core
+S1-837908386	S2-656461507	us	A Cure 3 You Inc.	A Cure 3 You Inc	103 Hampton Lee Court, Unit 1A, Cary, NC	TX, 13633 CHERRYDOWN ST, SUGAR LAND	Same Name, Different Entity	exact_name,name_core
+S1-837908386	S2-321635609	us	A Cure 3 You Inc.	A Cure 3 You Co	103 Hampton Lee Court, Unit 1A, Cary, NC	COLUMBIA, 1802 LAKIN LANE, TN	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-837908386	S2-224174775	us	A Cure 3 You Inc.	A Cure 3-You	103 Hampton Lee Court, Unit 1A, Cary, NC	10597 FOLOM BLVD, RANCHO CORDOVA, CA	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-837908386	S2-638786433	us	A Cure 3 You Inc.	A Cure 3 You	103 Hampton Lee Court, Unit 1A, Cary, NC	25322 LILY VALLEY DR, PO BOX 1199, PROTER, TX	Same Core Name, Different Entity	name_core,rare_token
+S1-837908386	S2-400367566	us	A Cure 3 You Inc.	A Cure 3 You	103 Hampton Lee Court, Unit 1A, Cary, NC	STATEN ISLAND TOWNSHIP, NY, 254 FINGERBOARD ROAD	Same Core Name, Different Entity	name_core,rare_token
+S1-837908386	S3-812541856	us	A Cure 3 You Inc.	A Cure 3 You LLC	103 Hampton Lee Court, Unit 1A, Cary, NC	611 Pinto Pl, Springfield CITY, Virginia	Same Core Name, Different Entity	name_core
+S1-837908386	S2-649705703	us	A Cure 3 You Inc.	A Cure 8 IT	103 Hampton Lee Court, Unit 1A, Cary, NC	103 AUTUMN FIELD DR, NC, HUNTERSVILLE	Same House Number, Different Entity	house_name
+S1-837908386	S2-312922013	us	A Cure 3 You Inc.	A CURE 9 IT	103 Hampton Lee Court, Unit 1A, Cary, NC	103- VINE ST, LAKE VIEW, IA	Same House Number, Different Entity	house_name
+S1-967500830	S2-91569069	us	Cozy Tavern!	COZY  TAVERN	505 White Street, Unit 505, Floydada, TX	419 OAK ORCHARD ROAD, TOWN OF PENSAUKEE, WI	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-967500830	S2-378861859	us	Cozy Tavern!	Cozy Tavern	505 White Street, Unit 505, Floydada, TX	NY, SOUTH RICHMOND HILL, 135-07 LIBERDY AVENUE	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-967500830	S2-983249780	us	Cozy Tavern!	Cozy Tavern	505 White Street, Unit 505, Floydada, TX	27598 86TH LANE, PEORIA, AZ	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-967500830	S2-224179228	us	Cozy Tavern!	cozy tavern	505 White Street, Unit 505, Floydada, TX	MOHAVE VALLEY, AZ, 6580 JOJOBA DR	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-967500830	S2-954040283	us	Cozy Tavern!	Cozy Tavern Corporation	505 White Street, Unit 505, Floydada, TX	##1309 Ledbetter St, ROUND ROCK, TX	Same Core Name, Different Entity	char_3gram_k10,name_core,rare_token
+S1-304297041	S2-480080780	india	Shivam Projects Private Limited	SHIVAM PROJECTS PRIVATE LIMITED	Howrah, Kolkata, Ground Floor Princeton Club 26 Prince Anwar Shah Road, West Bengal, Kolkata	668/10, 1ST FLOOR, SRI NAGAR RANI BAGH, NEW DELHI, Delhi	Same Name, Different Entity	exact_name,name_core
+S1-304297041	S3-239172929	india	Shivam Projects Private Limited	Shivam-Projects Private (Limited)	Howrah, Kolkata, Ground Floor Princeton Club 26 Prince Anwar Shah Road, West Bengal, Kolkata	Hig-414, Khordha, OD	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-16807998	S2-4796238	us	Innovative Payment Digital	Innovative  Payment Digital	1202 Scottsboro Road, Unit C, Marion, IL	9856 4100, PLEASANT GROVE, UT	Same Name, Different Entity	char_3gram_k10,exact_name,name_core
+S1-368846142	S2-977117507	us	Metro Ubs	Metro Ubs	203 Westminster Avenue, Syracuse, NY	18218-C NIBLICK DRIVE, KIRKLAND, AZ	Same Name, Different Entity	char_3gram_k10,exact_name,name_core,rare_token
+S1-368846142	S3-77374904	us	Metro Ubs	Metro Fox LLC Center	203 Westminster Avenue, Syracuse, NY	203 Belmont Ave, Seattle, Washington	Same House Number, Different Entity	house_name
+S1-368846142	S2-275402623	us	Metro Ubs	VO Pearl LP	203 Westminster Avenue, Syracuse, NY	203 SURREY COURT, WESTMINSTER, MD	Same House Number, Different Entity	address_token

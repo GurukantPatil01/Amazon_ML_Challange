@@ -60,3 +60,6 @@ logs/*
 .vscode/
 *.swp
 *.swo
+
+# Dataset files & symlinks
+dataset/
