@@ -6,6 +6,7 @@ Measures candidate recall (overall and per-S1), candidate cardinality distributi
 
 from collections import defaultdict
 from pathlib import Path
+import time
 from typing import Any, Dict, List, Optional, Set, Tuple
 import numpy as np
 import pandas as pd
@@ -215,34 +216,47 @@ def run_blocking_ablation(
     strategy_results: Dict[str, Any] = {}
     strategy_pair_maps: Dict[str, Dict[Tuple[str, str], Set[str]]] = {}
 
+    import resource
+    import sys
+    divisor = 1024 * 1024 if sys.platform == "darwin" else 1024
+
     for strat in strategies_to_test:
-        with timer(f"Evaluating {strat}", logger):
-            pairs = run_strategy_on_s1(strat, s1_norm, gen)
-            strategy_pair_maps[strat] = pairs
+        t0 = time.perf_counter()
+        mem_before = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss
+        pairs = run_strategy_on_s1(strat, s1_norm, gen)
+        elapsed = time.perf_counter() - t0
+        mem_after = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss
+        peak_rss = mem_after / divisor
 
-            # Map to s1_id -> candidate set
-            cands_by_s1: Dict[str, Set[str]] = defaultdict(set)
-            for (s1_id, cid) in pairs:
-                cands_by_s1[s1_id].add(cid)
+        strategy_pair_maps[strat] = pairs
 
-            metrics = evaluate_candidate_set(
-                cands_by_s1,
-                query_gt,
-                total_s1_count=len(s1_norm),
-                total_target_pool_size=len(s2_norm),
-                target_prefix="S2-",
-            )
-            strategy_results[strat] = metrics
-            logger.info(
-                f"{strat:20} -> Recall: {metrics['candidate_pair_recall']*100:.2f}%, "
-                f"Avg Cands: {metrics['avg_candidates_per_s1']}, P95: {metrics['p95_candidates']}"
-            )
+        # Map to s1_id -> candidate set
+        cands_by_s1: Dict[str, Set[str]] = defaultdict(set)
+        for (s1_id, cid) in pairs:
+            cands_by_s1[s1_id].add(cid)
+
+        metrics = evaluate_candidate_set(
+            cands_by_s1,
+            query_gt,
+            total_s1_count=len(s1_norm),
+            total_target_pool_size=len(s2_norm),
+            target_prefix="S2-",
+        )
+        metrics["runtime_sec"] = round(elapsed, 3)
+        metrics["peak_memory_mb"] = round(peak_rss, 2)
+        strategy_results[strat] = metrics
+        logger.info(
+            f"{strat:20} -> Recall: {metrics['candidate_pair_recall']*100:.2f}%, "
+            f"Avg Cands: {metrics['avg_candidates_per_s1']}, P95: {metrics['p95_candidates']}, "
+            f"Time: {metrics['runtime_sec']}s, Mem: {metrics['peak_memory_mb']}MB"
+        )
 
     # Union Configurations:
     # Union A: exact_name + name_core
     # Union B: Union A + rare_token
     # Union C: Union B + char_3gram_k10
     # Union D: Union C + house_name + combined_postal_name
+    # Union E: Union D + address_token (all strategies combined)
     unions = {
         "Union A (Exact + Core)": ["exact_name", "name_core"],
         "Union B (A + Rare Token)": ["exact_name", "name_core", "rare_token"],
@@ -255,12 +269,22 @@ def run_blocking_ablation(
             "house_name",
             "combined_postal_name",
         ],
+        "Union E (D + Address Token)": [
+            "exact_name",
+            "name_core",
+            "rare_token",
+            "char_3gram_k10",
+            "house_name",
+            "combined_postal_name",
+            "address_token",
+        ],
     }
 
     union_results: Dict[str, Any] = {}
     union_pairs_d: List[Tuple[str, str]] = []
 
     for uname, ustrats in unions.items():
+        t0 = time.perf_counter()
         cands_by_s1 = defaultdict(set)
         for strat in ustrats:
             for (s1_id, cid) in strategy_pair_maps[strat]:
@@ -268,6 +292,8 @@ def run_blocking_ablation(
 
         # Apply maximum candidates per entity cap = 50
         capped_cands_by_s1 = {s1: set(list(cands)[:50]) for s1, cands in cands_by_s1.items()}
+        elapsed = time.perf_counter() - t0
+        peak_rss = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss / divisor
 
         metrics = evaluate_candidate_set(
             capped_cands_by_s1,
@@ -276,24 +302,85 @@ def run_blocking_ablation(
             total_target_pool_size=len(s2_norm),
             target_prefix="S2-",
         )
+        metrics["runtime_sec"] = round(elapsed, 3)
+        metrics["peak_memory_mb"] = round(peak_rss, 2)
         union_results[uname] = metrics
         logger.info(
             f"{uname:30} -> Recall: {metrics['candidate_pair_recall']*100:.2f}%, "
-            f"Avg Cands: {metrics['avg_candidates_per_s1']}, P95: {metrics['p95_candidates']}"
+            f"Avg Cands: {metrics['avg_candidates_per_s1']}, P95: {metrics['p95_candidates']}, "
+            f"Time: {metrics['runtime_sec']}s, Mem: {metrics['peak_memory_mb']}MB"
         )
 
         if uname == "Union D (C + House/Postal)":
             union_pairs_d = [(s1, cid) for s1, cands in capped_cands_by_s1.items() for cid in cands]
+
+    # Incremental block analysis over name_core baseline
+    logger.info("Computing incremental block contributions over name_core...")
+    base_core_pairs = strategy_pair_maps["name_core"]
+    base_core_cands = defaultdict(set)
+    for (s1_id, cid) in base_core_pairs:
+        base_core_cands[s1_id].add(cid)
+    base_metrics = strategy_results["name_core"]
+
+    blocks_to_test_incremental = [
+        ("rare_token", "Rare Token (IDF)"),
+        ("char_3gram_k10", "Char 3-Gram (K=10)"),
+        ("postal", "Postal Code"),
+        ("house_name", "House Number + Name"),
+        ("address_token", "Address Token"),
+        ("combined_postal_name", "Postal + Name Token"),
+    ]
+
+    incremental_results: Dict[str, Any] = {}
+    for block_key, block_label in blocks_to_test_incremental:
+        combined_cands = defaultdict(set)
+        for s1_id, cands in base_core_cands.items():
+            combined_cands[s1_id].update(cands)
+        for (s1_id, cid) in strategy_pair_maps[block_key]:
+            combined_cands[s1_id].add(cid)
+
+        comb_metrics = evaluate_candidate_set(
+            combined_cands,
+            query_gt,
+            total_s1_count=len(s1_norm),
+            total_target_pool_size=len(s2_norm),
+            target_prefix="S2-",
+        )
+
+        delta_recall = comb_metrics["candidate_pair_recall"] - base_metrics["candidate_pair_recall"]
+        delta_cands = comb_metrics["avg_candidates_per_s1"] - base_metrics["avg_candidates_per_s1"]
+        delta_true_hits = comb_metrics["captured_true_pairs"] - base_metrics["captured_true_pairs"]
+        delta_total_cands = comb_metrics["total_candidates_generated"] - base_metrics["total_candidates_generated"]
+        efficiency = (delta_true_hits / delta_total_cands) if delta_total_cands > 0 else 0.0
+
+        incremental_results[block_key] = {
+            "block_label": block_label,
+            "base_recall": base_metrics["candidate_pair_recall"],
+            "combined_recall": comb_metrics["candidate_pair_recall"],
+            "delta_recall": round(delta_recall, 4),
+            "base_avg_cands": base_metrics["avg_candidates_per_s1"],
+            "combined_avg_cands": comb_metrics["avg_candidates_per_s1"],
+            "delta_avg_cands": round(delta_cands, 2),
+            "delta_true_hits": delta_true_hits,
+            "delta_total_cands": delta_total_cands,
+            "recall_gain_per_additional_candidate": round(efficiency, 6),
+        }
+        logger.info(
+            f"name_core + {block_label:25} -> +{delta_recall*100:+.2f}% recall, "
+            f"+{delta_cands:+.2f} cands/S1 (Efficiency: {efficiency:.6f})"
+        )
 
     # Mine hard negatives
     hard_neg_path = EXPERIMENTS_DIR / "hard_blocking_negatives.tsv"
     mine_hard_negatives(union_pairs_d, query_gt, s1_norm, s2_norm, hard_neg_path, max_hard_negatives=500)
 
     report_data = {
+        "experiment_type": "SUBSET EXPERIMENT",
         "sample_queries": sample_queries,
         "target_pool_size": target_sample_size,
         "strategies": strategy_results,
         "unions": union_results,
+        "incremental": incremental_results,
     }
 
     out_json = EXPERIMENTS_DIR / "phase2_blocking_data.json"
