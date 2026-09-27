@@ -37,6 +37,7 @@ venv.bak/
 # Models & artifacts
 models/*
 !models/.gitkeep
+!models/*.txt
 experiments/*
 !experiments/.gitkeep
 !experiments/*.md
