@@ -1,0 +1,50 @@
+{
+  "phase3_baseline": {
+    "blocking_configuration": "Union E (exact_name + name_core + rare_token + char_3gram_k10 + house_name + combined_postal_name + address_token)",
+    "candidate_recall": 0.8903,
+    "macro_f05": 0.9532,
+    "tp": 348,
+    "fp": 16,
+    "fn": 135,
+    "non_singleton_f05": 0.7233,
+    "avg_candidates_per_s1": 150.57,
+    "threshold": 0.45
+  },
+  "phase4a_baseline": {
+    "blocking_configuration": "Union F (Phase 3 + name_web_norm + house_token)",
+    "candidate_recall": 0.9358,
+    "macro_f05": 0.9662,
+    "tp": 420,
+    "fp": 46,
+    "fn": 63,
+    "non_singleton_f05": 0.8120,
+    "avg_candidates_per_s1": 155.80,
+    "threshold": 0.50
+  },
+  "phase4b_baseline": {
+    "blocking_configuration": "Union F + Targeted Precision Features (46 features)",
+    "candidate_recall": 0.9358,
+    "macro_f05": 0.9665,
+    "tp": 401,
+    "fp": 23,
+    "fn": 82,
+    "non_singleton_f05": 0.8278,
+    "avg_candidates_per_s1": 155.82,
+    "threshold": 0.50,
+    "remaining_candidate_misses": 31
+  },
+  "phase5a_candidate_ceilings": {
+    "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+    "embedding_dimension": 384,
+    "classical_recall_union_f": 0.9358,
+    "hybrid_recall_k50": 0.9627,
+    "hybrid_recall_k100": 0.9648,
+    "hybrid_recall_k200": 0.9669,
+    "misses_recovered_k50": 16,
+    "misses_recovered_k100": 17,
+    "misses_recovered_k200": 19,
+    "ocr_recovered_rate": 1.00,
+    "multilingual_recovered_rate": 0.867,
+    "dba_recovered_rate": 0.00
+  }
+}
