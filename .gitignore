@@ -50,6 +50,7 @@ experiments/*
 # Generated Outputs & Submissions
 output/*
 !output/.gitkeep
+!output/*.tsv
 
 # Logs
 logs/*
